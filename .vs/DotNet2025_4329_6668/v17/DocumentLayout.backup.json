@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Z:\\B\\\u05E7\u05E8\u05E9\u05D9\u05E0\u05E1\u05E7\u05D9 \u05E0\u05D7\u05DE\u05D9\\C#\\new\\CSProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6A7284B6-A101-449E-B636-D8FFF35CEFA5}|UI\\UI.csproj|z:\\b\\\u05E7\u05E8\u05E9\u05D9\u05E0\u05E1\u05E7\u05D9 \u05E0\u05D7\u05DE\u05D9\\c#\\new\\csproject\\ui\\managersales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A7284B6-A101-449E-B636-D8FFF35CEFA5}|UI\\UI.csproj|solutionrelative:ui\\managersales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A7284B6-A101-449E-B636-D8FFF35CEFA5}|UI\\UI.csproj|z:\\b\\\u05E7\u05E8\u05E9\u05D9\u05E0\u05E1\u05E7\u05D9 \u05E0\u05D7\u05DE\u05D9\\c#\\new\\csproject\\ui\\managersales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6A7284B6-A101-449E-B636-D8FFF35CEFA5}|UI\\UI.csproj|solutionrelative:ui\\managersales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A7284B6-A101-449E-B636-D8FFF35CEFA5}|UI\\UI.csproj|z:\\b\\\u05E7\u05E8\u05E9\u05D9\u05E0\u05E1\u05E7\u05D9 \u05E0\u05D7\u05DE\u05D9\\c#\\new\\csproject\\ui\\managerproducts.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A7284B6-A101-449E-B636-D8FFF35CEFA5}|UI\\UI.csproj|solutionrelative:ui\\managerproducts.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A7284B6-A101-449E-B636-D8FFF35CEFA5}|UI\\UI.csproj|z:\\b\\\u05E7\u05E8\u05E9\u05D9\u05E0\u05E1\u05E7\u05D9 \u05E0\u05D7\u05DE\u05D9\\c#\\new\\csproject\\ui\\managersales.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A7284B6-A101-449E-B636-D8FFF35CEFA5}|UI\\UI.csproj|solutionrelative:ui\\managersales.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A7284B6-A101-449E-B636-D8FFF35CEFA5}|UI\\UI.csproj|z:\\b\\\u05E7\u05E8\u05E9\u05D9\u05E0\u05E1\u05E7\u05D9 \u05E0\u05D7\u05DE\u05D9\\c#\\new\\csproject\\ui\\managerproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6A7284B6-A101-449E-B636-D8FFF35CEFA5}|UI\\UI.csproj|solutionrelative:ui\\managerproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A7284B6-A101-449E-B636-D8FFF35CEFA5}|UI\\UI.csproj|z:\\b\\\u05E7\u05E8\u05E9\u05D9\u05E0\u05E1\u05E7\u05D9 \u05E0\u05D7\u05DE\u05D9\\c#\\new\\csproject\\ui\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A7284B6-A101-449E-B636-D8FFF35CEFA5}|UI\\UI.csproj|solutionrelative:ui\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A7284B6-A101-449E-B636-D8FFF35CEFA5}|UI\\UI.csproj|z:\\b\\\u05E7\u05E8\u05E9\u05D9\u05E0\u05E1\u05E7\u05D9 \u05E0\u05D7\u05DE\u05D9\\c#\\new\\csproject\\ui\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6A7284B6-A101-449E-B636-D8FFF35CEFA5}|UI\\UI.csproj|solutionrelative:ui\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4364305-64BC-4AEE-9914-3452C0BFD01B}|BL\\BL.csproj|z:\\b\\\u05E7\u05E8\u05E9\u05D9\u05E0\u05E1\u05E7\u05D9 \u05E0\u05D7\u05DE\u05D9\\c#\\new\\csproject\\bl\\bo\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4364305-64BC-4AEE-9914-3452C0BFD01B}|BL\\BL.csproj|solutionrelative:bl\\bo\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A7284B6-A101-449E-B636-D8FFF35CEFA5}|UI\\UI.csproj|z:\\b\\\u05E7\u05E8\u05E9\u05D9\u05E0\u05E1\u05E7\u05D9 \u05E0\u05D7\u05DE\u05D9\\c#\\new\\csproject\\ui\\managerproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A7284B6-A101-449E-B636-D8FFF35CEFA5}|UI\\UI.csproj|solutionrelative:ui\\managerproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "Z:\\B\\\u05E7\u05E8\u05E9\u05D9\u05E0\u05E1\u05E7\u05D9 \u05E0\u05D7\u05DE\u05D9\\C#\\new\\CSProject\\UI\\Customer.cs",
+              "RelativeDocumentMoniker": "UI\\Customer.cs",
+              "ToolTip": "Z:\\B\\\u05E7\u05E8\u05E9\u05D9\u05E0\u05E1\u05E7\u05D9 \u05E0\u05D7\u05DE\u05D9\\C#\\new\\CSProject\\UI\\Customer.cs",
+              "RelativeToolTip": "UI\\Customer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwB0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T12:35:55.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Customer.cs [Design]",
+              "DocumentMoniker": "Z:\\B\\\u05E7\u05E8\u05E9\u05D9\u05E0\u05E1\u05E7\u05D9 \u05E0\u05D7\u05DE\u05D9\\C#\\new\\CSProject\\UI\\Customer.cs",
+              "RelativeDocumentMoniker": "UI\\Customer.cs",
+              "ToolTip": "Z:\\B\\\u05E7\u05E8\u05E9\u05D9\u05E0\u05E1\u05E7\u05D9 \u05E0\u05D7\u05DE\u05D9\\C#\\new\\CSProject\\UI\\Customer.cs [Design]",
+              "RelativeToolTip": "UI\\Customer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T12:35:50.85Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Product.cs",
+              "DocumentMoniker": "Z:\\B\\\u05E7\u05E8\u05E9\u05D9\u05E0\u05E1\u05E7\u05D9 \u05E0\u05D7\u05DE\u05D9\\C#\\new\\CSProject\\BL\\BO\\Product.cs",
+              "RelativeDocumentMoniker": "BL\\BO\\Product.cs",
+              "ToolTip": "Z:\\B\\\u05E7\u05E8\u05E9\u05D9\u05E0\u05E1\u05E7\u05D9 \u05E0\u05D7\u05DE\u05D9\\C#\\new\\CSProject\\BL\\BO\\Product.cs",
+              "RelativeToolTip": "BL\\BO\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T12:27:56.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ManagerSales.Designer.cs",
+              "DocumentMoniker": "Z:\\B\\\u05E7\u05E8\u05E9\u05D9\u05E0\u05E1\u05E7\u05D9 \u05E0\u05D7\u05DE\u05D9\\C#\\new\\CSProject\\UI\\ManagerSales.Designer.cs",
+              "RelativeDocumentMoniker": "UI\\ManagerSales.Designer.cs",
+              "ToolTip": "Z:\\B\\\u05E7\u05E8\u05E9\u05D9\u05E0\u05E1\u05E7\u05D9 \u05E0\u05D7\u05DE\u05D9\\C#\\new\\CSProject\\UI\\ManagerSales.Designer.cs",
+              "RelativeToolTip": "UI\\ManagerSales.Designer.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAuwFQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T12:05:25.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManagerProducts.Designer.cs",
+              "DocumentMoniker": "Z:\\B\\\u05E7\u05E8\u05E9\u05D9\u05E0\u05E1\u05E7\u05D9 \u05E0\u05D7\u05DE\u05D9\\C#\\new\\CSProject\\UI\\ManagerProducts.Designer.cs",
+              "RelativeDocumentMoniker": "UI\\ManagerProducts.Designer.cs",
+              "ToolTip": "Z:\\B\\\u05E7\u05E8\u05E9\u05D9\u05E0\u05E1\u05E7\u05D9 \u05E0\u05D7\u05DE\u05D9\\C#\\new\\CSProject\\UI\\ManagerProducts.Designer.cs",
+              "RelativeToolTip": "UI\\ManagerProducts.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T11:17:47.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ManagerProducts.cs [Design]",
+              "DocumentMoniker": "Z:\\B\\\u05E7\u05E8\u05E9\u05D9\u05E0\u05E1\u05E7\u05D9 \u05E0\u05D7\u05DE\u05D9\\C#\\new\\CSProject\\UI\\ManagerProducts.cs",
+              "RelativeDocumentMoniker": "UI\\ManagerProducts.cs",
+              "ToolTip": "Z:\\B\\\u05E7\u05E8\u05E9\u05D9\u05E0\u05E1\u05E7\u05D9 \u05E0\u05D7\u05DE\u05D9\\C#\\new\\CSProject\\UI\\ManagerProducts.cs [Design]",
+              "RelativeToolTip": "UI\\ManagerProducts.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T10:57:43.015Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManagerSales.cs [Design]",
+              "DocumentMoniker": "Z:\\B\\\u05E7\u05E8\u05E9\u05D9\u05E0\u05E1\u05E7\u05D9 \u05E0\u05D7\u05DE\u05D9\\C#\\new\\CSProject\\UI\\ManagerSales.cs",
+              "RelativeDocumentMoniker": "UI\\ManagerSales.cs",
+              "ToolTip": "Z:\\B\\\u05E7\u05E8\u05E9\u05D9\u05E0\u05E1\u05E7\u05D9 \u05E0\u05D7\u05DE\u05D9\\C#\\new\\CSProject\\UI\\ManagerSales.cs [Design]",
+              "RelativeToolTip": "UI\\ManagerSales.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T10:32:21.346Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ManagerSales.cs",
+              "DocumentMoniker": "Z:\\B\\\u05E7\u05E8\u05E9\u05D9\u05E0\u05E1\u05E7\u05D9 \u05E0\u05D7\u05DE\u05D9\\C#\\new\\CSProject\\UI\\ManagerSales.cs",
+              "RelativeDocumentMoniker": "UI\\ManagerSales.cs",
+              "ToolTip": "Z:\\B\\\u05E7\u05E8\u05E9\u05D9\u05E0\u05E1\u05E7\u05D9 \u05E0\u05D7\u05DE\u05D9\\C#\\new\\CSProject\\UI\\ManagerSales.cs",
+              "RelativeToolTip": "UI\\ManagerSales.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T10:32:35.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ManagerProducts.cs",
+              "DocumentMoniker": "Z:\\B\\\u05E7\u05E8\u05E9\u05D9\u05E0\u05E1\u05E7\u05D9 \u05E0\u05D7\u05DE\u05D9\\C#\\new\\CSProject\\UI\\ManagerProducts.cs",
+              "RelativeDocumentMoniker": "UI\\ManagerProducts.cs",
+              "ToolTip": "Z:\\B\\\u05E7\u05E8\u05E9\u05D9\u05E0\u05E1\u05E7\u05D9 \u05E0\u05D7\u05DE\u05D9\\C#\\new\\CSProject\\UI\\ManagerProducts.cs",
+              "RelativeToolTip": "UI\\ManagerProducts.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAawCwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T10:38:48.662Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

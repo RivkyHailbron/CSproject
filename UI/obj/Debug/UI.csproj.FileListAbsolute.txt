@@ -1,0 +1,80 @@
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\bin\UI.exe
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\bin\UI.deps.json
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\bin\UI.runtimeconfig.json
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\bin\UI.dll
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\bin\UI.pdb
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\UI\obj\Debug\UI.csproj.AssemblyReference.cache
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\UI\obj\Debug\UI.Customer.resources
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\UI\obj\Debug\UI.CustomerOrder.resources
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\UI\obj\Debug\UI.Home.resources
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\UI\obj\Debug\UI.Manager.resources
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\UI\obj\Debug\UI.ManagerCustomers.resources
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\UI\obj\Debug\UI.ManagerProducts.resources
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\UI\obj\Debug\UI.ManagerSales.resources
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\UI\obj\Debug\UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\UI\obj\Debug\UI.AssemblyInfoInputs.cache
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\UI\obj\Debug\UI.AssemblyInfo.cs
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\UI\obj\Debug\UI.sourcelink.json
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\UI\obj\Debug\UI.csproj.Up2Date
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\UI\obj\Debug\UI.dll
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\UI\obj\Debug\refint\UI.dll
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\UI\obj\Debug\UI.pdb
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\UI\obj\Debug\UI.genruntimeconfig.cache
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\UI\obj\Debug\ref\UI.dll
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\UI\obj\Debug\UI.Properties.Resources.resources
+E:\C# מתקדם\UI\obj\Debug\UI.dll
+E:\C# מתקדם\UI\obj\Debug\refint\UI.dll
+E:\C# מתקדם\UI\obj\Debug\UI.pdb
+C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\bin\UI.exe
+C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\bin\UI.deps.json
+C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\bin\UI.runtimeconfig.json
+C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\bin\UI.dll
+C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\bin\UI.pdb
+C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\UI\obj\Debug\UI.csproj.AssemblyReference.cache
+C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\UI\obj\Debug\UI.Customer.resources
+C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\UI\obj\Debug\UI.CustomerOrder.resources
+C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\UI\obj\Debug\UI.Home.resources
+C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\UI\obj\Debug\UI.Manager.resources
+C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\UI\obj\Debug\UI.ManagerCustomers.resources
+C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\UI\obj\Debug\UI.ManagerProducts.resources
+C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\UI\obj\Debug\UI.ManagerSales.resources
+C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\UI\obj\Debug\UI.Properties.Resources.resources
+C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\UI\obj\Debug\UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\UI\obj\Debug\UI.AssemblyInfoInputs.cache
+C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\UI\obj\Debug\UI.AssemblyInfo.cs
+C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\UI\obj\Debug\UI.csproj.Up2Date
+C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\UI\obj\Debug\UI.dll
+C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\UI\obj\Debug\refint\UI.dll
+C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\UI\obj\Debug\UI.pdb
+C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\UI\obj\Debug\UI.genruntimeconfig.cache
+C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\UI\obj\Debug\ref\UI.dll
+Z:\B\קרשינסקי נחמי\C#\new\CSProject\bin\UI.exe
+Z:\B\קרשינסקי נחמי\C#\new\CSProject\bin\UI.deps.json
+Z:\B\קרשינסקי נחמי\C#\new\CSProject\bin\UI.runtimeconfig.json
+Z:\B\קרשינסקי נחמי\C#\new\CSProject\bin\UI.dll
+Z:\B\קרשינסקי נחמי\C#\new\CSProject\bin\UI.pdb
+Z:\B\קרשינסקי נחמי\C#\new\CSProject\UI\obj\Debug\UI.csproj.AssemblyReference.cache
+Z:\B\קרשינסקי נחמי\C#\new\CSProject\UI\obj\Debug\UI.Customer.resources
+Z:\B\קרשינסקי נחמי\C#\new\CSProject\UI\obj\Debug\UI.CustomerOrder.resources
+Z:\B\קרשינסקי נחמי\C#\new\CSProject\UI\obj\Debug\UI.Home.resources
+Z:\B\קרשינסקי נחמי\C#\new\CSProject\UI\obj\Debug\UI.Manager.resources
+Z:\B\קרשינסקי נחמי\C#\new\CSProject\UI\obj\Debug\UI.ManagerCustomers.resources
+Z:\B\קרשינסקי נחמי\C#\new\CSProject\UI\obj\Debug\UI.ManagerProducts.resources
+Z:\B\קרשינסקי נחמי\C#\new\CSProject\UI\obj\Debug\UI.ManagerSales.resources
+Z:\B\קרשינסקי נחמי\C#\new\CSProject\UI\obj\Debug\UI.Properties.Resources.resources
+Z:\B\קרשינסקי נחמי\C#\new\CSProject\UI\obj\Debug\UI.csproj.GenerateResource.cache
+Z:\B\קרשינסקי נחמי\C#\new\CSProject\UI\obj\Debug\UI.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\קרשינסקי נחמי\C#\new\CSProject\UI\obj\Debug\UI.AssemblyInfoInputs.cache
+Z:\B\קרשינסקי נחמי\C#\new\CSProject\UI\obj\Debug\UI.AssemblyInfo.cs
+Z:\B\קרשינסקי נחמי\C#\new\CSProject\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+Z:\B\קרשינסקי נחמי\C#\new\CSProject\UI\obj\Debug\UI.sourcelink.json
+Z:\B\קרשינסקי נחמי\C#\new\CSProject\UI\obj\Debug\UI.csproj.Up2Date
+Z:\B\קרשינסקי נחמי\C#\new\CSProject\UI\obj\Debug\UI.dll
+Z:\B\קרשינסקי נחמי\C#\new\CSProject\UI\obj\Debug\refint\UI.dll
+Z:\B\קרשינסקי נחמי\C#\new\CSProject\UI\obj\Debug\UI.pdb
+Z:\B\קרשינסקי נחמי\C#\new\CSProject\UI\obj\Debug\UI.genruntimeconfig.cache
+Z:\B\קרשינסקי נחמי\C#\new\CSProject\UI\obj\Debug\ref\UI.dll

@@ -1,0 +1,1366 @@
+04/03/2025 00:00:00
+		11:02:36.4439641
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 111, Name = Yeuda, Address = Modin ilit, Phone = 0556767677 }
+		11:02:36.4499168
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 111, Name = Yeuda, Address = Modin ilit, Phone = 0556767677 }
+		11:02:36.4536160
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 222, Name = Rivki, Address = Jerusalem, Phone = 0556764658 }
+		11:02:36.4574488
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 222, Name = Rivki, Address = Jerusalem, Phone = 0556764658 }
+		11:02:36.4606596
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 333, Name = Rut, Address = Bne Brak, Phone = 0556744258 }
+		11:02:36.4643604
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 333, Name = Rut, Address = Bne Brak, Phone = 0556744258 }
+		11:02:36.4670616
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 444, Name = Michal, Address = Modin ilit, Phone = 0556722714 }
+		11:02:36.4698989
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 444, Name = Michal, Address = Modin ilit, Phone = 0556722714 }
+		11:02:36.4733731
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 555, Name = Chaim, Address = Jerusalem, Phone = 0583244056 }
+		11:02:36.4769843
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 555, Name = Chaim, Address = Jerusalem, Phone = 0583244056 }
+		11:02:36.4797507
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 666, Name = Michael, Address = Jerusalem, Phone = 0527634508 }
+		11:02:36.4826305
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 666, Name = Michael, Address = Jerusalem, Phone = 0527634508 }
+		11:02:36.4901114
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = lack shoes black to shabes for girls, Category = elegant, Price = 100, Amount = 200 }
+	11:02:36.4939930
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = lack shoes black to shabes for girls, Category = elegant, Price = 100, Amount = 200 }
+		11:02:36.4969389
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = sport shoes gray for girls, Category = sport, Price = 250, Amount = 4000 }
+	11:02:36.4998520
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = sport shoes gray for girls, Category = sport, Price = 250, Amount = 4000 }
+		11:02:36.5035897
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = mokasin shoes brown, Category = women, Price = 100, Amount = 2500 }
+	11:02:36.5075782
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = mokasin shoes brown, Category = women, Price = 100, Amount = 2500 }
+		11:02:36.5108450
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = crocs shoes, Category = men, Price = 60, Amount = 700 }
+	11:02:36.5138320
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = crocs shoes, Category = men, Price = 60, Amount = 700 }
+		11:02:36.5169447
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = first step white-red for children, Category = children, Price = 180, Amount = 1100 }
+	11:02:36.5200707
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = first step white-red for children, Category = children, Price = 180, Amount = 1100 }
+		11:02:36.5239758
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = comfortable shoes, Category = sport, Price = 300, Amount = 500 }
+	11:02:36.5272835
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = comfortable shoes, Category = sport, Price = 300, Amount = 500 }
+		11:02:36.5313955
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 1, MinAmountForSale = 500, SalePrice = 70, ForClub = True, StartDateSale = 04/03/2025 11:02:36, EndDateSale = 03/04/2025 11:02:36 }
+	11:02:36.5352746
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 1, MinAmountForSale = 500, SalePrice = 70, ForClub = True, StartDateSale = 04/03/2025 11:02:36, EndDateSale = 03/04/2025 11:02:36 }
+		11:02:36.5387487
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 2, MinAmountForSale = 1500, SalePrice = 150, ForClub = False, StartDateSale = 04/03/2025 11:02:36, EndDateSale = 19/03/2025 11:02:36 }
+	11:02:36.5423577
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 2, MinAmountForSale = 1500, SalePrice = 150, ForClub = False, StartDateSale = 04/03/2025 11:02:36, EndDateSale = 19/03/2025 11:02:36 }
+		11:02:36.5453717
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 3, MinAmountForSale = 2000, SalePrice = 50, ForClub = True, StartDateSale = 04/03/2025 11:02:36, EndDateSale = 03/04/2025 11:02:36 }
+	11:02:36.5484385
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 3, MinAmountForSale = 2000, SalePrice = 50, ForClub = True, StartDateSale = 04/03/2025 11:02:36, EndDateSale = 03/04/2025 11:02:36 }
+		11:02:36.5514530
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 4, MinAmountForSale = 2000, SalePrice = 35, ForClub = False, StartDateSale = 04/03/2025 11:02:36, EndDateSale = 14/03/2025 11:02:36 }
+	11:02:36.5546229
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 4, MinAmountForSale = 2000, SalePrice = 35, ForClub = False, StartDateSale = 04/03/2025 11:02:36, EndDateSale = 14/03/2025 11:02:36 }
+		11:02:36.5578904
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 5, MinAmountForSale = 1000, SalePrice = 100, ForClub = True, StartDateSale = 04/03/2025 11:02:36, EndDateSale = 03/04/2025 11:02:36 }
+	11:02:36.5613064
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 5, MinAmountForSale = 1000, SalePrice = 100, ForClub = True, StartDateSale = 04/03/2025 11:02:36, EndDateSale = 03/04/2025 11:02:36 }
+		11:02:36.5648053
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 6, MinAmountForSale = 800, SalePrice = 200, ForClub = True, StartDateSale = 04/03/2025 11:02:36, EndDateSale = 03/05/2025 11:02:36 }
+	11:02:36.5685224
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 6, MinAmountForSale = 800, SalePrice = 200, ForClub = True, StartDateSale = 04/03/2025 11:02:36, EndDateSale = 03/05/2025 11:02:36 }
+		11:02:56.0365195
+	 		 Dal.ProductImplementation.Read
+		read product 2
+	11:02:56.0407036
+	 	 Dal.ProductImplementation.Read
+	finish read product 2
+		11:02:56.0454056
+	 		 Dal.SaleImplementation.ReadAll
+		readAll sales
+	11:02:56.0490344
+	 	 Dal.SaleImplementation.ReadAll
+	finish readAll sales
+		11:37:56.0651767
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 111, Name = Yeuda, Address = Modin ilit, Phone = 0556767677 }
+		11:37:56.1052508
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 111, Name = Yeuda, Address = Modin ilit, Phone = 0556767677 }
+		11:37:56.1087892
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 222, Name = Rivki, Address = Jerusalem, Phone = 0556764658 }
+		11:37:56.1121780
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 222, Name = Rivki, Address = Jerusalem, Phone = 0556764658 }
+		11:37:56.1159056
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 333, Name = Rut, Address = Bne Brak, Phone = 0556744258 }
+		11:37:56.1194633
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 333, Name = Rut, Address = Bne Brak, Phone = 0556744258 }
+		11:37:56.1231653
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 444, Name = Michal, Address = Modin ilit, Phone = 0556722714 }
+		11:37:56.1261411
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 444, Name = Michal, Address = Modin ilit, Phone = 0556722714 }
+		11:37:56.1291042
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 555, Name = Chaim, Address = Jerusalem, Phone = 0583244056 }
+		11:37:56.1324699
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 555, Name = Chaim, Address = Jerusalem, Phone = 0583244056 }
+		11:37:56.1356148
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 666, Name = Michael, Address = Jerusalem, Phone = 0527634508 }
+		11:37:56.1390346
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 666, Name = Michael, Address = Jerusalem, Phone = 0527634508 }
+		11:37:56.1452046
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = lack shoes black to shabes for girls, Category = elegant, Price = 100, Amount = 200 }
+	11:37:56.1497998
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = lack shoes black to shabes for girls, Category = elegant, Price = 100, Amount = 200 }
+		11:37:56.1535171
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = sport shoes gray for girls, Category = sport, Price = 250, Amount = 4000 }
+	11:37:56.1569344
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = sport shoes gray for girls, Category = sport, Price = 250, Amount = 4000 }
+		11:37:56.1602090
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = mokasin shoes brown, Category = women, Price = 100, Amount = 2500 }
+	11:37:56.1638749
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = mokasin shoes brown, Category = women, Price = 100, Amount = 2500 }
+		11:37:56.1671955
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = crocs shoes, Category = men, Price = 60, Amount = 700 }
+	11:37:56.1703226
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = crocs shoes, Category = men, Price = 60, Amount = 700 }
+		11:37:56.1739586
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = first step white-red for children, Category = children, Price = 180, Amount = 1100 }
+	11:37:56.1775198
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = first step white-red for children, Category = children, Price = 180, Amount = 1100 }
+		11:37:56.1816096
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = comfortable shoes, Category = sport, Price = 300, Amount = 500 }
+	11:37:56.1855065
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = comfortable shoes, Category = sport, Price = 300, Amount = 500 }
+		11:37:56.1973560
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 1, MinAmountForSale = 500, SalePrice = 70, ForClub = True, StartDateSale = 04/03/2025 11:37:56, EndDateSale = 03/04/2025 11:37:56 }
+	11:37:56.2018312
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 1, MinAmountForSale = 500, SalePrice = 70, ForClub = True, StartDateSale = 04/03/2025 11:37:56, EndDateSale = 03/04/2025 11:37:56 }
+		11:37:56.2064858
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 2, MinAmountForSale = 1500, SalePrice = 150, ForClub = False, StartDateSale = 04/03/2025 11:37:56, EndDateSale = 19/03/2025 11:37:56 }
+	11:37:56.2107518
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 2, MinAmountForSale = 1500, SalePrice = 150, ForClub = False, StartDateSale = 04/03/2025 11:37:56, EndDateSale = 19/03/2025 11:37:56 }
+		11:37:56.2144412
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 3, MinAmountForSale = 2000, SalePrice = 50, ForClub = True, StartDateSale = 04/03/2025 11:37:56, EndDateSale = 03/04/2025 11:37:56 }
+	11:37:56.2176817
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 3, MinAmountForSale = 2000, SalePrice = 50, ForClub = True, StartDateSale = 04/03/2025 11:37:56, EndDateSale = 03/04/2025 11:37:56 }
+		11:37:56.2211099
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 4, MinAmountForSale = 2000, SalePrice = 35, ForClub = False, StartDateSale = 04/03/2025 11:37:56, EndDateSale = 14/03/2025 11:37:56 }
+	11:37:56.2268590
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 4, MinAmountForSale = 2000, SalePrice = 35, ForClub = False, StartDateSale = 04/03/2025 11:37:56, EndDateSale = 14/03/2025 11:37:56 }
+		11:37:56.2309034
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 5, MinAmountForSale = 1000, SalePrice = 100, ForClub = True, StartDateSale = 04/03/2025 11:37:56, EndDateSale = 03/04/2025 11:37:56 }
+	11:37:56.2346709
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 5, MinAmountForSale = 1000, SalePrice = 100, ForClub = True, StartDateSale = 04/03/2025 11:37:56, EndDateSale = 03/04/2025 11:37:56 }
+		11:37:56.2380109
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 6, MinAmountForSale = 800, SalePrice = 200, ForClub = True, StartDateSale = 04/03/2025 11:37:56, EndDateSale = 03/05/2025 11:37:56 }
+	11:37:56.2415183
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 6, MinAmountForSale = 800, SalePrice = 200, ForClub = True, StartDateSale = 04/03/2025 11:37:56, EndDateSale = 03/05/2025 11:37:56 }
+		11:38:04.5497376
+	 		 Dal.ProductImplementation.Read
+		read product 1
+	11:38:04.5552460
+	 	 Dal.ProductImplementation.Read
+	finish read product 1
+		11:38:04.5611313
+	 		 Dal.SaleImplementation.ReadAll
+		readAll sales
+	11:38:04.5643669
+	 	 Dal.SaleImplementation.ReadAll
+	finish readAll sales
+		11:38:12.3104908
+	 		 Dal.ProductImplementation.Read
+		read product 6
+	11:38:12.3144923
+	 	 Dal.ProductImplementation.Read
+	finish read product 6
+		11:38:12.3184777
+	 		 Dal.SaleImplementation.ReadAll
+		readAll sales
+	11:38:12.3213642
+	 	 Dal.SaleImplementation.ReadAll
+	finish readAll sales
+		11:38:14.9737420
+	 		 Dal.ProductImplementation.Read
+		read product 1
+	11:38:14.9788355
+	 	 Dal.ProductImplementation.Read
+	finish read product 1
+		11:38:14.9852264
+	 		 Dal.ProductImplementation.Update
+		update product Product { ID = 1, Name = lack shoes black to shabes for girls, Category = elegant, Price = 100, Amount = 194 }
+			11:38:14.9904285
+	 			 Dal.ProductImplementation.Delete
+			delete  product 1
+				11:38:14.9938215
+	 				 Dal.ProductImplementation.Read
+				read product 1
+			11:38:14.9967835
+	 			 Dal.ProductImplementation.Read
+			finish read product 1
+		11:38:15.0000200
+	 		 Dal.ProductImplementation.Delete
+		finish delete product 1
+	11:38:15.0037939
+	 	 Dal.ProductImplementation.Update
+	finish update product Product { ID = 1, Name = lack shoes black to shabes for girls, Category = elegant, Price = 100, Amount = 194 }
+		11:38:15.0078962
+	 		 Dal.ProductImplementation.Read
+		read product 1
+	11:38:15.0116262
+	 	 Dal.ProductImplementation.Read
+	finish read product 1
+		11:38:15.0158302
+	 		 Dal.ProductImplementation.Update
+		update product Product { ID = 1, Name = lack shoes black to shabes for girls, Category = elegant, Price = 100, Amount = 188 }
+			11:38:15.0191869
+	 			 Dal.ProductImplementation.Delete
+			delete  product 1
+				11:38:15.0230887
+	 				 Dal.ProductImplementation.Read
+				read product 1
+			11:38:15.0258061
+	 			 Dal.ProductImplementation.Read
+			finish read product 1
+		11:38:15.0287167
+	 		 Dal.ProductImplementation.Delete
+		finish delete product 1
+	11:38:15.0313099
+	 	 Dal.ProductImplementation.Update
+	finish update product Product { ID = 1, Name = lack shoes black to shabes for girls, Category = elegant, Price = 100, Amount = 188 }
+		11:38:15.0345748
+	 		 Dal.ProductImplementation.Read
+		read product 6
+	11:38:15.0377511
+	 	 Dal.ProductImplementation.Read
+	finish read product 6
+		11:38:15.0405520
+	 		 Dal.ProductImplementation.Update
+		update product Product { ID = 6, Name = comfortable shoes, Category = sport, Price = 300, Amount = 500 }
+			11:38:15.0432421
+	 			 Dal.ProductImplementation.Delete
+			delete  product 6
+				11:38:15.0459617
+	 				 Dal.ProductImplementation.Read
+				read product 6
+			11:38:15.0487445
+	 			 Dal.ProductImplementation.Read
+			finish read product 6
+		11:38:15.0517075
+	 		 Dal.ProductImplementation.Delete
+		finish delete product 6
+	11:38:15.0548681
+	 	 Dal.ProductImplementation.Update
+	finish update product Product { ID = 6, Name = comfortable shoes, Category = sport, Price = 300, Amount = 500 }
+		11:38:15.0576786
+	 		 Dal.ProductImplementation.Read
+		read product 6
+	11:38:15.0603539
+	 	 Dal.ProductImplementation.Read
+	finish read product 6
+		11:38:15.0632009
+	 		 Dal.ProductImplementation.Update
+		update product Product { ID = 6, Name = comfortable shoes, Category = sport, Price = 300, Amount = 500 }
+			11:38:15.0662707
+	 			 Dal.ProductImplementation.Delete
+			delete  product 6
+				11:38:15.0691663
+	 				 Dal.ProductImplementation.Read
+				read product 6
+			11:38:15.0723107
+	 			 Dal.ProductImplementation.Read
+			finish read product 6
+		11:38:15.0751120
+	 		 Dal.ProductImplementation.Delete
+		finish delete product 6
+	11:38:15.0778291
+	 	 Dal.ProductImplementation.Update
+	finish update product Product { ID = 6, Name = comfortable shoes, Category = sport, Price = 300, Amount = 500 }
+		11:39:13.6251535
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 111, Name = Yeuda, Address = Modin ilit, Phone = 0556767677 }
+		11:39:13.6316111
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 111, Name = Yeuda, Address = Modin ilit, Phone = 0556767677 }
+		11:39:13.6351677
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 222, Name = Rivki, Address = Jerusalem, Phone = 0556764658 }
+		11:39:13.6382365
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 222, Name = Rivki, Address = Jerusalem, Phone = 0556764658 }
+		11:39:13.6444358
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 333, Name = Rut, Address = Bne Brak, Phone = 0556744258 }
+		11:39:13.6483028
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 333, Name = Rut, Address = Bne Brak, Phone = 0556744258 }
+		11:39:13.6516999
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 444, Name = Michal, Address = Modin ilit, Phone = 0556722714 }
+		11:39:13.6552629
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 444, Name = Michal, Address = Modin ilit, Phone = 0556722714 }
+		11:39:13.6586923
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 555, Name = Chaim, Address = Jerusalem, Phone = 0583244056 }
+		11:39:13.6614121
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 555, Name = Chaim, Address = Jerusalem, Phone = 0583244056 }
+		11:39:13.6645709
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 666, Name = Michael, Address = Jerusalem, Phone = 0527634508 }
+		11:39:13.6675973
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 666, Name = Michael, Address = Jerusalem, Phone = 0527634508 }
+		11:39:13.6732522
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = lack shoes black to shabes for girls, Category = elegant, Price = 100, Amount = 200 }
+	11:39:13.6769862
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = lack shoes black to shabes for girls, Category = elegant, Price = 100, Amount = 200 }
+		11:39:13.6803222
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = sport shoes gray for girls, Category = sport, Price = 250, Amount = 4000 }
+	11:39:13.6840084
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = sport shoes gray for girls, Category = sport, Price = 250, Amount = 4000 }
+		11:39:13.6873666
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = mokasin shoes brown, Category = women, Price = 100, Amount = 2500 }
+	11:39:13.6908736
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = mokasin shoes brown, Category = women, Price = 100, Amount = 2500 }
+		11:39:13.6938299
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = crocs shoes, Category = men, Price = 60, Amount = 700 }
+	11:39:13.6968259
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = crocs shoes, Category = men, Price = 60, Amount = 700 }
+		11:39:13.6999760
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = first step white-red for children, Category = children, Price = 180, Amount = 1100 }
+	11:39:13.7030310
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = first step white-red for children, Category = children, Price = 180, Amount = 1100 }
+		11:39:13.7063220
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = comfortable shoes, Category = sport, Price = 300, Amount = 500 }
+	11:39:13.7089463
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = comfortable shoes, Category = sport, Price = 300, Amount = 500 }
+		11:39:13.7213402
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 1, MinAmountForSale = 500, SalePrice = 70, ForClub = True, StartDateSale = 04/03/2025 11:39:13, EndDateSale = 03/04/2025 11:39:13 }
+	11:39:13.7261012
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 1, MinAmountForSale = 500, SalePrice = 70, ForClub = True, StartDateSale = 04/03/2025 11:39:13, EndDateSale = 03/04/2025 11:39:13 }
+		11:39:13.7298303
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 2, MinAmountForSale = 1500, SalePrice = 150, ForClub = False, StartDateSale = 04/03/2025 11:39:13, EndDateSale = 19/03/2025 11:39:13 }
+	11:39:13.7336611
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 2, MinAmountForSale = 1500, SalePrice = 150, ForClub = False, StartDateSale = 04/03/2025 11:39:13, EndDateSale = 19/03/2025 11:39:13 }
+		11:39:13.7391034
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 3, MinAmountForSale = 2000, SalePrice = 50, ForClub = True, StartDateSale = 04/03/2025 11:39:13, EndDateSale = 03/04/2025 11:39:13 }
+	11:39:13.7429118
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 3, MinAmountForSale = 2000, SalePrice = 50, ForClub = True, StartDateSale = 04/03/2025 11:39:13, EndDateSale = 03/04/2025 11:39:13 }
+		11:39:13.7463888
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 4, MinAmountForSale = 2000, SalePrice = 35, ForClub = False, StartDateSale = 04/03/2025 11:39:13, EndDateSale = 14/03/2025 11:39:13 }
+	11:39:13.7497639
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 4, MinAmountForSale = 2000, SalePrice = 35, ForClub = False, StartDateSale = 04/03/2025 11:39:13, EndDateSale = 14/03/2025 11:39:13 }
+		11:39:13.7547294
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 5, MinAmountForSale = 1000, SalePrice = 100, ForClub = True, StartDateSale = 04/03/2025 11:39:13, EndDateSale = 03/04/2025 11:39:13 }
+	11:39:13.7593978
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 5, MinAmountForSale = 1000, SalePrice = 100, ForClub = True, StartDateSale = 04/03/2025 11:39:13, EndDateSale = 03/04/2025 11:39:13 }
+		11:39:13.7634740
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 6, MinAmountForSale = 800, SalePrice = 200, ForClub = True, StartDateSale = 04/03/2025 11:39:13, EndDateSale = 03/05/2025 11:39:13 }
+	11:39:13.7677743
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 6, MinAmountForSale = 800, SalePrice = 200, ForClub = True, StartDateSale = 04/03/2025 11:39:13, EndDateSale = 03/05/2025 11:39:13 }
+		11:39:13.7756776
+	 		 Dal.ProductImplementation.ReadAll
+		readAll products 
+		11:40:36.1772801
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 111, Name = Yeuda, Address = Modin ilit, Phone = 0556767677 }
+		11:40:36.1836222
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 111, Name = Yeuda, Address = Modin ilit, Phone = 0556767677 }
+		11:40:36.1886923
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 222, Name = Rivki, Address = Jerusalem, Phone = 0556764658 }
+		11:40:36.1939642
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 222, Name = Rivki, Address = Jerusalem, Phone = 0556764658 }
+		11:40:36.1998342
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 333, Name = Rut, Address = Bne Brak, Phone = 0556744258 }
+		11:40:36.2035439
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 333, Name = Rut, Address = Bne Brak, Phone = 0556744258 }
+		11:40:36.2083719
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 444, Name = Michal, Address = Modin ilit, Phone = 0556722714 }
+		11:40:36.2122851
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 444, Name = Michal, Address = Modin ilit, Phone = 0556722714 }
+		11:40:36.2170019
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 555, Name = Chaim, Address = Jerusalem, Phone = 0583244056 }
+		11:40:36.2212039
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 555, Name = Chaim, Address = Jerusalem, Phone = 0583244056 }
+		11:40:36.2248521
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 666, Name = Michael, Address = Jerusalem, Phone = 0527634508 }
+		11:40:36.2296898
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 666, Name = Michael, Address = Jerusalem, Phone = 0527634508 }
+		11:40:36.2409630
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = lack shoes black to shabes for girls, Category = elegant, Price = 100, Amount = 200 }
+	11:40:36.2458473
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = lack shoes black to shabes for girls, Category = elegant, Price = 100, Amount = 200 }
+		11:40:36.2498531
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = sport shoes gray for girls, Category = sport, Price = 250, Amount = 4000 }
+	11:40:36.2542590
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = sport shoes gray for girls, Category = sport, Price = 250, Amount = 4000 }
+		11:40:36.2594153
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = mokasin shoes brown, Category = women, Price = 100, Amount = 2500 }
+	11:40:36.2649908
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = mokasin shoes brown, Category = women, Price = 100, Amount = 2500 }
+		11:40:36.2692140
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = crocs shoes, Category = men, Price = 60, Amount = 700 }
+	11:40:36.2733784
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = crocs shoes, Category = men, Price = 60, Amount = 700 }
+		11:40:36.2769147
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = first step white-red for children, Category = children, Price = 180, Amount = 1100 }
+	11:40:36.2807160
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = first step white-red for children, Category = children, Price = 180, Amount = 1100 }
+		11:40:36.2842549
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = comfortable shoes, Category = sport, Price = 300, Amount = 500 }
+	11:40:36.2875975
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = comfortable shoes, Category = sport, Price = 300, Amount = 500 }
+		11:40:36.3009277
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 1, MinAmountForSale = 500, SalePrice = 70, ForClub = True, StartDateSale = 04/03/2025 11:40:36, EndDateSale = 03/04/2025 11:40:36 }
+	11:40:36.3060940
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 1, MinAmountForSale = 500, SalePrice = 70, ForClub = True, StartDateSale = 04/03/2025 11:40:36, EndDateSale = 03/04/2025 11:40:36 }
+		11:40:36.3105416
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 2, MinAmountForSale = 1500, SalePrice = 150, ForClub = False, StartDateSale = 04/03/2025 11:40:36, EndDateSale = 19/03/2025 11:40:36 }
+	11:40:36.3150222
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 2, MinAmountForSale = 1500, SalePrice = 150, ForClub = False, StartDateSale = 04/03/2025 11:40:36, EndDateSale = 19/03/2025 11:40:36 }
+		11:40:36.3197071
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 3, MinAmountForSale = 2000, SalePrice = 50, ForClub = True, StartDateSale = 04/03/2025 11:40:36, EndDateSale = 03/04/2025 11:40:36 }
+	11:40:36.3249455
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 3, MinAmountForSale = 2000, SalePrice = 50, ForClub = True, StartDateSale = 04/03/2025 11:40:36, EndDateSale = 03/04/2025 11:40:36 }
+		11:40:36.3298807
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 4, MinAmountForSale = 2000, SalePrice = 35, ForClub = False, StartDateSale = 04/03/2025 11:40:36, EndDateSale = 14/03/2025 11:40:36 }
+	11:40:36.3350933
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 4, MinAmountForSale = 2000, SalePrice = 35, ForClub = False, StartDateSale = 04/03/2025 11:40:36, EndDateSale = 14/03/2025 11:40:36 }
+		11:40:36.3397784
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 5, MinAmountForSale = 1000, SalePrice = 100, ForClub = True, StartDateSale = 04/03/2025 11:40:36, EndDateSale = 03/04/2025 11:40:36 }
+	11:40:36.3444679
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 5, MinAmountForSale = 1000, SalePrice = 100, ForClub = True, StartDateSale = 04/03/2025 11:40:36, EndDateSale = 03/04/2025 11:40:36 }
+		11:40:36.3480321
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 6, MinAmountForSale = 800, SalePrice = 200, ForClub = True, StartDateSale = 04/03/2025 11:40:36, EndDateSale = 03/05/2025 11:40:36 }
+	11:40:36.3514632
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 6, MinAmountForSale = 800, SalePrice = 200, ForClub = True, StartDateSale = 04/03/2025 11:40:36, EndDateSale = 03/05/2025 11:40:36 }
+		11:40:36.3601144
+	 		 Dal.ProductImplementation.ReadAll
+		readAll products 
+		11:52:16.9781064
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 111, Name = Yeuda, Address = Modin ilit, Phone = 0556767677 }
+		11:52:16.9832395
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 111, Name = Yeuda, Address = Modin ilit, Phone = 0556767677 }
+		11:52:16.9870619
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 222, Name = Rivki, Address = Jerusalem, Phone = 0556764658 }
+		11:52:16.9908952
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 222, Name = Rivki, Address = Jerusalem, Phone = 0556764658 }
+		11:52:16.9973199
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 333, Name = Rut, Address = Bne Brak, Phone = 0556744258 }
+		11:52:17.0055132
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 333, Name = Rut, Address = Bne Brak, Phone = 0556744258 }
+		11:52:17.0088478
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 444, Name = Michal, Address = Modin ilit, Phone = 0556722714 }
+		11:52:17.0124149
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 444, Name = Michal, Address = Modin ilit, Phone = 0556722714 }
+		11:52:17.0157889
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 555, Name = Chaim, Address = Jerusalem, Phone = 0583244056 }
+		11:52:17.0194859
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 555, Name = Chaim, Address = Jerusalem, Phone = 0583244056 }
+		11:52:17.0237557
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 666, Name = Michael, Address = Jerusalem, Phone = 0527634508 }
+		11:52:17.0275441
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 666, Name = Michael, Address = Jerusalem, Phone = 0527634508 }
+		11:52:17.0409397
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = lack shoes black to shabes for girls, Category = elegant, Price = 100, Amount = 200 }
+	11:52:17.0451781
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = lack shoes black to shabes for girls, Category = elegant, Price = 100, Amount = 200 }
+		11:52:17.0487433
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = sport shoes gray for girls, Category = sport, Price = 250, Amount = 4000 }
+	11:52:17.0522322
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = sport shoes gray for girls, Category = sport, Price = 250, Amount = 4000 }
+		11:52:17.0555722
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = mokasin shoes brown, Category = women, Price = 100, Amount = 2500 }
+	11:52:17.0585106
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = mokasin shoes brown, Category = women, Price = 100, Amount = 2500 }
+		11:52:17.0618481
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = crocs shoes, Category = men, Price = 60, Amount = 700 }
+	11:52:17.0649875
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = crocs shoes, Category = men, Price = 60, Amount = 700 }
+		11:52:17.0683936
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = first step white-red for children, Category = children, Price = 180, Amount = 1100 }
+	11:52:17.0715917
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = first step white-red for children, Category = children, Price = 180, Amount = 1100 }
+		11:52:17.0749218
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = comfortable shoes, Category = sport, Price = 300, Amount = 500 }
+	11:52:17.0779984
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = comfortable shoes, Category = sport, Price = 300, Amount = 500 }
+		11:52:17.0875270
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 1, MinAmountForSale = 500, SalePrice = 70, ForClub = True, StartDateSale = 04/03/2025 11:52:17, EndDateSale = 03/04/2025 11:52:17 }
+	11:52:17.0909373
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 1, MinAmountForSale = 500, SalePrice = 70, ForClub = True, StartDateSale = 04/03/2025 11:52:17, EndDateSale = 03/04/2025 11:52:17 }
+		11:52:17.0942368
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 2, MinAmountForSale = 1500, SalePrice = 150, ForClub = False, StartDateSale = 04/03/2025 11:52:17, EndDateSale = 19/03/2025 11:52:17 }
+	11:52:17.0972203
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 2, MinAmountForSale = 1500, SalePrice = 150, ForClub = False, StartDateSale = 04/03/2025 11:52:17, EndDateSale = 19/03/2025 11:52:17 }
+		11:52:17.1007014
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 3, MinAmountForSale = 2000, SalePrice = 50, ForClub = True, StartDateSale = 04/03/2025 11:52:17, EndDateSale = 03/04/2025 11:52:17 }
+	11:52:17.1047223
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 3, MinAmountForSale = 2000, SalePrice = 50, ForClub = True, StartDateSale = 04/03/2025 11:52:17, EndDateSale = 03/04/2025 11:52:17 }
+		11:52:17.1077102
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 4, MinAmountForSale = 2000, SalePrice = 35, ForClub = False, StartDateSale = 04/03/2025 11:52:17, EndDateSale = 14/03/2025 11:52:17 }
+	11:52:17.1106238
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 4, MinAmountForSale = 2000, SalePrice = 35, ForClub = False, StartDateSale = 04/03/2025 11:52:17, EndDateSale = 14/03/2025 11:52:17 }
+		11:52:17.1136287
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 5, MinAmountForSale = 1000, SalePrice = 100, ForClub = True, StartDateSale = 04/03/2025 11:52:17, EndDateSale = 03/04/2025 11:52:17 }
+	11:52:17.1164476
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 5, MinAmountForSale = 1000, SalePrice = 100, ForClub = True, StartDateSale = 04/03/2025 11:52:17, EndDateSale = 03/04/2025 11:52:17 }
+		11:52:17.1195426
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 6, MinAmountForSale = 800, SalePrice = 200, ForClub = True, StartDateSale = 04/03/2025 11:52:17, EndDateSale = 03/05/2025 11:52:17 }
+	11:52:17.1226918
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 6, MinAmountForSale = 800, SalePrice = 200, ForClub = True, StartDateSale = 04/03/2025 11:52:17, EndDateSale = 03/05/2025 11:52:17 }
+		11:52:17.1273425
+	 		 Dal.ProductImplementation.ReadAll
+		readAll products 
+		18:16:17.6190860
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 111, Name = Yeuda, Address = Modin ilit, Phone = 0556767677 }
+		18:16:17.6268618
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 111, Name = Yeuda, Address = Modin ilit, Phone = 0556767677 }
+		18:16:17.6316760
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 222, Name = Rivki, Address = Jerusalem, Phone = 0556764658 }
+		18:16:17.6373896
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 222, Name = Rivki, Address = Jerusalem, Phone = 0556764658 }
+		18:16:17.6414928
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 333, Name = Rut, Address = Bne Brak, Phone = 0556744258 }
+		18:16:17.6468361
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 333, Name = Rut, Address = Bne Brak, Phone = 0556744258 }
+		18:16:17.6516495
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 444, Name = Michal, Address = Modin ilit, Phone = 0556722714 }
+		18:16:17.6556541
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 444, Name = Michal, Address = Modin ilit, Phone = 0556722714 }
+		18:16:17.6606291
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 555, Name = Chaim, Address = Jerusalem, Phone = 0583244056 }
+		18:16:17.6660876
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 555, Name = Chaim, Address = Jerusalem, Phone = 0583244056 }
+		18:16:17.6713981
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 666, Name = Michael, Address = Jerusalem, Phone = 0527634508 }
+		18:16:17.6768160
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 666, Name = Michael, Address = Jerusalem, Phone = 0527634508 }
+		18:16:17.6934200
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = lack shoes black to shabes for girls, Category = elegant, Price = 100, Amount = 200 }
+	18:16:17.6962072
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = lack shoes black to shabes for girls, Category = elegant, Price = 100, Amount = 200 }
+		18:16:17.6996958
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = sport shoes gray for girls, Category = sport, Price = 250, Amount = 4000 }
+	18:16:17.7027290
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = sport shoes gray for girls, Category = sport, Price = 250, Amount = 4000 }
+		18:16:17.7054854
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = mokasin shoes brown, Category = women, Price = 100, Amount = 2500 }
+	18:16:17.7097755
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = mokasin shoes brown, Category = women, Price = 100, Amount = 2500 }
+		18:16:17.7139853
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = crocs shoes, Category = men, Price = 60, Amount = 700 }
+	18:16:17.7175739
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = crocs shoes, Category = men, Price = 60, Amount = 700 }
+		18:16:17.7218863
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = first step white-red for children, Category = children, Price = 180, Amount = 1100 }
+	18:16:17.7252139
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = first step white-red for children, Category = children, Price = 180, Amount = 1100 }
+		18:16:17.7281927
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = comfortable shoes, Category = sport, Price = 300, Amount = 500 }
+	18:16:17.7308119
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = comfortable shoes, Category = sport, Price = 300, Amount = 500 }
+		18:16:17.7423684
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 1, MinAmountForSale = 500, SalePrice = 70, ForClub = True, StartDateSale = 04/03/2025 18:16:17, EndDateSale = 03/04/2025 18:16:17 }
+	18:16:17.7457478
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 1, MinAmountForSale = 500, SalePrice = 70, ForClub = True, StartDateSale = 04/03/2025 18:16:17, EndDateSale = 03/04/2025 18:16:17 }
+		18:16:17.7497705
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 2, MinAmountForSale = 1500, SalePrice = 150, ForClub = False, StartDateSale = 04/03/2025 18:16:17, EndDateSale = 19/03/2025 18:16:17 }
+	18:16:17.7537004
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 2, MinAmountForSale = 1500, SalePrice = 150, ForClub = False, StartDateSale = 04/03/2025 18:16:17, EndDateSale = 19/03/2025 18:16:17 }
+		18:16:17.7566560
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 3, MinAmountForSale = 2000, SalePrice = 50, ForClub = True, StartDateSale = 04/03/2025 18:16:17, EndDateSale = 03/04/2025 18:16:17 }
+	18:16:17.7592864
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 3, MinAmountForSale = 2000, SalePrice = 50, ForClub = True, StartDateSale = 04/03/2025 18:16:17, EndDateSale = 03/04/2025 18:16:17 }
+		18:16:17.7634556
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 4, MinAmountForSale = 2000, SalePrice = 35, ForClub = False, StartDateSale = 04/03/2025 18:16:17, EndDateSale = 14/03/2025 18:16:17 }
+	18:16:17.7671494
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 4, MinAmountForSale = 2000, SalePrice = 35, ForClub = False, StartDateSale = 04/03/2025 18:16:17, EndDateSale = 14/03/2025 18:16:17 }
+		18:16:17.7718969
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 5, MinAmountForSale = 1000, SalePrice = 100, ForClub = True, StartDateSale = 04/03/2025 18:16:17, EndDateSale = 03/04/2025 18:16:17 }
+	18:16:17.7762177
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 5, MinAmountForSale = 1000, SalePrice = 100, ForClub = True, StartDateSale = 04/03/2025 18:16:17, EndDateSale = 03/04/2025 18:16:17 }
+		18:16:17.7792876
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 6, MinAmountForSale = 800, SalePrice = 200, ForClub = True, StartDateSale = 04/03/2025 18:16:17, EndDateSale = 03/05/2025 18:16:17 }
+	18:16:17.7819848
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 6, MinAmountForSale = 800, SalePrice = 200, ForClub = True, StartDateSale = 04/03/2025 18:16:17, EndDateSale = 03/05/2025 18:16:17 }
+		18:16:47.7573370
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 111, Name = Yeuda, Address = Modin ilit, Phone = 0556767677 }
+		18:16:47.7647162
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 111, Name = Yeuda, Address = Modin ilit, Phone = 0556767677 }
+		18:16:47.7681718
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 222, Name = Rivki, Address = Jerusalem, Phone = 0556764658 }
+		18:16:47.7728357
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 222, Name = Rivki, Address = Jerusalem, Phone = 0556764658 }
+		18:16:47.7761035
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 333, Name = Rut, Address = Bne Brak, Phone = 0556744258 }
+		18:16:47.7805321
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 333, Name = Rut, Address = Bne Brak, Phone = 0556744258 }
+		18:16:47.7844800
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 444, Name = Michal, Address = Modin ilit, Phone = 0556722714 }
+		18:16:47.7892202
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 444, Name = Michal, Address = Modin ilit, Phone = 0556722714 }
+		18:16:47.7947974
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 555, Name = Chaim, Address = Jerusalem, Phone = 0583244056 }
+		18:16:47.7988480
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 555, Name = Chaim, Address = Jerusalem, Phone = 0583244056 }
+		18:16:47.8036191
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 666, Name = Michael, Address = Jerusalem, Phone = 0527634508 }
+		18:16:47.8068723
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 666, Name = Michael, Address = Jerusalem, Phone = 0527634508 }
+		18:16:47.8319005
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = lack shoes black to shabes for girls, Category = elegant, Price = 100, Amount = 200 }
+	18:16:47.8360578
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = lack shoes black to shabes for girls, Category = elegant, Price = 100, Amount = 200 }
+		18:16:47.8404836
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = sport shoes gray for girls, Category = sport, Price = 250, Amount = 4000 }
+	18:16:47.8433136
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = sport shoes gray for girls, Category = sport, Price = 250, Amount = 4000 }
+		18:16:47.8473696
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = mokasin shoes brown, Category = women, Price = 100, Amount = 2500 }
+	18:16:47.8516531
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = mokasin shoes brown, Category = women, Price = 100, Amount = 2500 }
+		18:16:47.8562291
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = crocs shoes, Category = men, Price = 60, Amount = 700 }
+	18:16:47.8595820
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = crocs shoes, Category = men, Price = 60, Amount = 700 }
+		18:16:47.8634921
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = first step white-red for children, Category = children, Price = 180, Amount = 1100 }
+	18:16:47.8684854
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = first step white-red for children, Category = children, Price = 180, Amount = 1100 }
+		18:16:47.8723399
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = comfortable shoes, Category = sport, Price = 300, Amount = 500 }
+	18:16:47.8749802
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = comfortable shoes, Category = sport, Price = 300, Amount = 500 }
+		18:16:47.8867566
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 1, MinAmountForSale = 500, SalePrice = 70, ForClub = True, StartDateSale = 04/03/2025 18:16:47, EndDateSale = 03/04/2025 18:16:47 }
+	18:16:47.8911722
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 1, MinAmountForSale = 500, SalePrice = 70, ForClub = True, StartDateSale = 04/03/2025 18:16:47, EndDateSale = 03/04/2025 18:16:47 }
+		18:16:47.8962504
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 2, MinAmountForSale = 1500, SalePrice = 150, ForClub = False, StartDateSale = 04/03/2025 18:16:47, EndDateSale = 19/03/2025 18:16:47 }
+	18:16:47.9007813
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 2, MinAmountForSale = 1500, SalePrice = 150, ForClub = False, StartDateSale = 04/03/2025 18:16:47, EndDateSale = 19/03/2025 18:16:47 }
+		18:16:47.9057536
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 3, MinAmountForSale = 2000, SalePrice = 50, ForClub = True, StartDateSale = 04/03/2025 18:16:47, EndDateSale = 03/04/2025 18:16:47 }
+	18:16:47.9097185
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 3, MinAmountForSale = 2000, SalePrice = 50, ForClub = True, StartDateSale = 04/03/2025 18:16:47, EndDateSale = 03/04/2025 18:16:47 }
+		18:16:47.9148637
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 4, MinAmountForSale = 2000, SalePrice = 35, ForClub = False, StartDateSale = 04/03/2025 18:16:47, EndDateSale = 14/03/2025 18:16:47 }
+	18:16:47.9197748
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 4, MinAmountForSale = 2000, SalePrice = 35, ForClub = False, StartDateSale = 04/03/2025 18:16:47, EndDateSale = 14/03/2025 18:16:47 }
+		18:16:47.9224383
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 5, MinAmountForSale = 1000, SalePrice = 100, ForClub = True, StartDateSale = 04/03/2025 18:16:47, EndDateSale = 03/04/2025 18:16:47 }
+	18:16:47.9253349
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 5, MinAmountForSale = 1000, SalePrice = 100, ForClub = True, StartDateSale = 04/03/2025 18:16:47, EndDateSale = 03/04/2025 18:16:47 }
+		18:16:47.9286522
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 6, MinAmountForSale = 800, SalePrice = 200, ForClub = True, StartDateSale = 04/03/2025 18:16:47, EndDateSale = 03/05/2025 18:16:47 }
+	18:16:47.9307206
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 6, MinAmountForSale = 800, SalePrice = 200, ForClub = True, StartDateSale = 04/03/2025 18:16:47, EndDateSale = 03/05/2025 18:16:47 }
+		18:16:47.9340039
+	 		 Dal.ProductImplementation.ReadAll
+		readAll products 
+			18:16:52.5804397
+	 			 Dal.CustomerImplementation.ReadAll
+			readall customer 
+		18:19:47.6891459
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 111, Name = Yeuda, Address = Modin ilit, Phone = 0556767677 }
+		18:19:47.6995334
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 111, Name = Yeuda, Address = Modin ilit, Phone = 0556767677 }
+		18:19:47.7036885
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 222, Name = Rivki, Address = Jerusalem, Phone = 0556764658 }
+		18:19:47.7102748
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 222, Name = Rivki, Address = Jerusalem, Phone = 0556764658 }
+		18:19:47.7147026
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 333, Name = Rut, Address = Bne Brak, Phone = 0556744258 }
+		18:19:47.7202548
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 333, Name = Rut, Address = Bne Brak, Phone = 0556744258 }
+		18:19:47.7250002
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 444, Name = Michal, Address = Modin ilit, Phone = 0556722714 }
+		18:19:47.7298417
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 444, Name = Michal, Address = Modin ilit, Phone = 0556722714 }
+		18:19:47.7365759
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 555, Name = Chaim, Address = Jerusalem, Phone = 0583244056 }
+		18:19:47.7415107
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 555, Name = Chaim, Address = Jerusalem, Phone = 0583244056 }
+		18:19:47.7458480
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 666, Name = Michael, Address = Jerusalem, Phone = 0527634508 }
+		18:19:47.7512075
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 666, Name = Michael, Address = Jerusalem, Phone = 0527634508 }
+		18:19:47.7712842
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = lack shoes black to shabes for girls, Category = elegant, Price = 100, Amount = 200 }
+	18:19:47.7753492
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = lack shoes black to shabes for girls, Category = elegant, Price = 100, Amount = 200 }
+		18:19:47.7793835
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = sport shoes gray for girls, Category = sport, Price = 250, Amount = 4000 }
+	18:19:47.7841686
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = sport shoes gray for girls, Category = sport, Price = 250, Amount = 4000 }
+		18:19:47.7876814
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = mokasin shoes brown, Category = women, Price = 100, Amount = 2500 }
+	18:19:47.7929249
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = mokasin shoes brown, Category = women, Price = 100, Amount = 2500 }
+		18:19:47.7960498
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = crocs shoes, Category = men, Price = 60, Amount = 700 }
+	18:19:47.8021531
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = crocs shoes, Category = men, Price = 60, Amount = 700 }
+		18:19:47.8074484
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = first step white-red for children, Category = children, Price = 180, Amount = 1100 }
+	18:19:47.8124404
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = first step white-red for children, Category = children, Price = 180, Amount = 1100 }
+		18:19:47.8159692
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = comfortable shoes, Category = sport, Price = 300, Amount = 500 }
+	18:19:47.8187618
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = comfortable shoes, Category = sport, Price = 300, Amount = 500 }
+		18:19:47.8268179
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 1, MinAmountForSale = 500, SalePrice = 70, ForClub = True, StartDateSale = 04/03/2025 18:19:47, EndDateSale = 03/04/2025 18:19:47 }
+	18:19:47.8293542
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 1, MinAmountForSale = 500, SalePrice = 70, ForClub = True, StartDateSale = 04/03/2025 18:19:47, EndDateSale = 03/04/2025 18:19:47 }
+		18:19:47.8344272
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 2, MinAmountForSale = 1500, SalePrice = 150, ForClub = False, StartDateSale = 04/03/2025 18:19:47, EndDateSale = 19/03/2025 18:19:47 }
+	18:19:47.8366917
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 2, MinAmountForSale = 1500, SalePrice = 150, ForClub = False, StartDateSale = 04/03/2025 18:19:47, EndDateSale = 19/03/2025 18:19:47 }
+		18:19:47.8415912
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 3, MinAmountForSale = 2000, SalePrice = 50, ForClub = True, StartDateSale = 04/03/2025 18:19:47, EndDateSale = 03/04/2025 18:19:47 }
+	18:19:47.8445345
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 3, MinAmountForSale = 2000, SalePrice = 50, ForClub = True, StartDateSale = 04/03/2025 18:19:47, EndDateSale = 03/04/2025 18:19:47 }
+		18:19:47.8489520
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 4, MinAmountForSale = 2000, SalePrice = 35, ForClub = False, StartDateSale = 04/03/2025 18:19:47, EndDateSale = 14/03/2025 18:19:47 }
+	18:19:47.8522915
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 4, MinAmountForSale = 2000, SalePrice = 35, ForClub = False, StartDateSale = 04/03/2025 18:19:47, EndDateSale = 14/03/2025 18:19:47 }
+		18:19:47.8550214
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 5, MinAmountForSale = 1000, SalePrice = 100, ForClub = True, StartDateSale = 04/03/2025 18:19:47, EndDateSale = 03/04/2025 18:19:47 }
+	18:19:47.8599350
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 5, MinAmountForSale = 1000, SalePrice = 100, ForClub = True, StartDateSale = 04/03/2025 18:19:47, EndDateSale = 03/04/2025 18:19:47 }
+		18:19:47.8647452
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 6, MinAmountForSale = 800, SalePrice = 200, ForClub = True, StartDateSale = 04/03/2025 18:19:47, EndDateSale = 03/05/2025 18:19:47 }
+	18:19:47.8679355
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 6, MinAmountForSale = 800, SalePrice = 200, ForClub = True, StartDateSale = 04/03/2025 18:19:47, EndDateSale = 03/05/2025 18:19:47 }
+		18:19:47.8740919
+	 		 Dal.ProductImplementation.ReadAll
+		readAll products 
+			18:19:50.9801241
+	 			 Dal.CustomerImplementation.ReadAll
+			readall customer 
+		18:19:56.4068983
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 111, Name = Yeuda, Address = Modin ilit, Phone = 0556767677 }
+		18:19:56.4144978
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 111, Name = Yeuda, Address = Modin ilit, Phone = 0556767677 }
+		18:19:56.4179755
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 222, Name = Rivki, Address = Jerusalem, Phone = 0556764658 }
+		18:19:56.4215290
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 222, Name = Rivki, Address = Jerusalem, Phone = 0556764658 }
+		18:19:56.4253045
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 333, Name = Rut, Address = Bne Brak, Phone = 0556744258 }
+		18:19:56.4311815
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 333, Name = Rut, Address = Bne Brak, Phone = 0556744258 }
+		18:19:56.4378490
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 444, Name = Michal, Address = Modin ilit, Phone = 0556722714 }
+		18:19:56.4439379
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 444, Name = Michal, Address = Modin ilit, Phone = 0556722714 }
+		18:19:56.4497986
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 555, Name = Chaim, Address = Jerusalem, Phone = 0583244056 }
+		18:19:56.4534240
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 555, Name = Chaim, Address = Jerusalem, Phone = 0583244056 }
+		18:19:56.4578496
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 666, Name = Michael, Address = Jerusalem, Phone = 0527634508 }
+		18:19:56.4619204
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 666, Name = Michael, Address = Jerusalem, Phone = 0527634508 }
+		18:19:56.4766652
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = lack shoes black to shabes for girls, Category = elegant, Price = 100, Amount = 200 }
+	18:19:56.4813485
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = lack shoes black to shabes for girls, Category = elegant, Price = 100, Amount = 200 }
+		18:19:56.4860342
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = sport shoes gray for girls, Category = sport, Price = 250, Amount = 4000 }
+	18:19:56.4905295
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = sport shoes gray for girls, Category = sport, Price = 250, Amount = 4000 }
+		18:19:56.4944297
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = mokasin shoes brown, Category = women, Price = 100, Amount = 2500 }
+	18:19:56.4998411
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = mokasin shoes brown, Category = women, Price = 100, Amount = 2500 }
+		18:19:56.5052372
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = crocs shoes, Category = men, Price = 60, Amount = 700 }
+	18:19:56.5093211
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = crocs shoes, Category = men, Price = 60, Amount = 700 }
+		18:19:56.5144778
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = first step white-red for children, Category = children, Price = 180, Amount = 1100 }
+	18:19:56.5194023
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = first step white-red for children, Category = children, Price = 180, Amount = 1100 }
+		18:19:56.5238389
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = comfortable shoes, Category = sport, Price = 300, Amount = 500 }
+	18:19:56.5280388
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = comfortable shoes, Category = sport, Price = 300, Amount = 500 }
+		18:19:56.5382643
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 1, MinAmountForSale = 500, SalePrice = 70, ForClub = True, StartDateSale = 04/03/2025 18:19:56, EndDateSale = 03/04/2025 18:19:56 }
+	18:19:56.5419072
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 1, MinAmountForSale = 500, SalePrice = 70, ForClub = True, StartDateSale = 04/03/2025 18:19:56, EndDateSale = 03/04/2025 18:19:56 }
+		18:19:56.5458917
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 2, MinAmountForSale = 1500, SalePrice = 150, ForClub = False, StartDateSale = 04/03/2025 18:19:56, EndDateSale = 19/03/2025 18:19:56 }
+	18:19:56.5500763
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 2, MinAmountForSale = 1500, SalePrice = 150, ForClub = False, StartDateSale = 04/03/2025 18:19:56, EndDateSale = 19/03/2025 18:19:56 }
+		18:19:56.5549441
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 3, MinAmountForSale = 2000, SalePrice = 50, ForClub = True, StartDateSale = 04/03/2025 18:19:56, EndDateSale = 03/04/2025 18:19:56 }
+	18:19:56.5590125
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 3, MinAmountForSale = 2000, SalePrice = 50, ForClub = True, StartDateSale = 04/03/2025 18:19:56, EndDateSale = 03/04/2025 18:19:56 }
+		18:19:56.5616727
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 4, MinAmountForSale = 2000, SalePrice = 35, ForClub = False, StartDateSale = 04/03/2025 18:19:56, EndDateSale = 14/03/2025 18:19:56 }
+	18:19:56.5650273
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 4, MinAmountForSale = 2000, SalePrice = 35, ForClub = False, StartDateSale = 04/03/2025 18:19:56, EndDateSale = 14/03/2025 18:19:56 }
+		18:19:56.5675005
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 5, MinAmountForSale = 1000, SalePrice = 100, ForClub = True, StartDateSale = 04/03/2025 18:19:56, EndDateSale = 03/04/2025 18:19:56 }
+	18:19:56.5708798
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 5, MinAmountForSale = 1000, SalePrice = 100, ForClub = True, StartDateSale = 04/03/2025 18:19:56, EndDateSale = 03/04/2025 18:19:56 }
+		18:19:56.5736974
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 6, MinAmountForSale = 800, SalePrice = 200, ForClub = True, StartDateSale = 04/03/2025 18:19:56, EndDateSale = 03/05/2025 18:19:56 }
+	18:19:56.5779364
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 6, MinAmountForSale = 800, SalePrice = 200, ForClub = True, StartDateSale = 04/03/2025 18:19:56, EndDateSale = 03/05/2025 18:19:56 }
+		18:19:56.5821692
+	 		 Dal.ProductImplementation.ReadAll
+		readAll products 
+			18:20:00.1171678
+	 			 Dal.CustomerImplementation.ReadAll
+			readall customer 
+		18:20:09.3338076
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 111, Name = Yeuda, Address = Modin ilit, Phone = 0556767677 }
+		18:20:09.3435449
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 111, Name = Yeuda, Address = Modin ilit, Phone = 0556767677 }
+		18:20:09.3499395
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 222, Name = Rivki, Address = Jerusalem, Phone = 0556764658 }
+		18:20:09.3553599
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 222, Name = Rivki, Address = Jerusalem, Phone = 0556764658 }
+		18:20:09.3609477
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 333, Name = Rut, Address = Bne Brak, Phone = 0556744258 }
+		18:20:09.3653802
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 333, Name = Rut, Address = Bne Brak, Phone = 0556744258 }
+		18:20:09.3707746
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 444, Name = Michal, Address = Modin ilit, Phone = 0556722714 }
+		18:20:09.3761581
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 444, Name = Michal, Address = Modin ilit, Phone = 0556722714 }
+		18:20:09.3793654
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 555, Name = Chaim, Address = Jerusalem, Phone = 0583244056 }
+		18:20:09.3846845
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 555, Name = Chaim, Address = Jerusalem, Phone = 0583244056 }
+		18:20:09.3886370
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 666, Name = Michael, Address = Jerusalem, Phone = 0527634508 }
+		18:20:09.3938815
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 666, Name = Michael, Address = Jerusalem, Phone = 0527634508 }
+		18:20:09.4273754
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = lack shoes black to shabes for girls, Category = elegant, Price = 100, Amount = 200 }
+	18:20:09.4310038
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = lack shoes black to shabes for girls, Category = elegant, Price = 100, Amount = 200 }
+		18:20:09.4351398
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = sport shoes gray for girls, Category = sport, Price = 250, Amount = 4000 }
+	18:20:09.4390855
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = sport shoes gray for girls, Category = sport, Price = 250, Amount = 4000 }
+		18:20:09.4423531
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = mokasin shoes brown, Category = women, Price = 100, Amount = 2500 }
+	18:20:09.4477991
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = mokasin shoes brown, Category = women, Price = 100, Amount = 2500 }
+		18:20:09.4520185
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = crocs shoes, Category = men, Price = 60, Amount = 700 }
+	18:20:09.4554103
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = crocs shoes, Category = men, Price = 60, Amount = 700 }
+		18:20:09.4583590
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = first step white-red for children, Category = children, Price = 180, Amount = 1100 }
+	18:20:09.4629161
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = first step white-red for children, Category = children, Price = 180, Amount = 1100 }
+		18:20:09.4680266
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = comfortable shoes, Category = sport, Price = 300, Amount = 500 }
+	18:20:09.4727891
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = comfortable shoes, Category = sport, Price = 300, Amount = 500 }
+		18:20:09.4822798
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 1, MinAmountForSale = 500, SalePrice = 70, ForClub = True, StartDateSale = 04/03/2025 18:20:09, EndDateSale = 03/04/2025 18:20:09 }
+	18:20:09.4855059
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 1, MinAmountForSale = 500, SalePrice = 70, ForClub = True, StartDateSale = 04/03/2025 18:20:09, EndDateSale = 03/04/2025 18:20:09 }
+		18:20:09.4902730
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 2, MinAmountForSale = 1500, SalePrice = 150, ForClub = False, StartDateSale = 04/03/2025 18:20:09, EndDateSale = 19/03/2025 18:20:09 }
+	18:20:09.4942279
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 2, MinAmountForSale = 1500, SalePrice = 150, ForClub = False, StartDateSale = 04/03/2025 18:20:09, EndDateSale = 19/03/2025 18:20:09 }
+		18:20:09.4979040
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 3, MinAmountForSale = 2000, SalePrice = 50, ForClub = True, StartDateSale = 04/03/2025 18:20:09, EndDateSale = 03/04/2025 18:20:09 }
+	18:20:09.5020736
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 3, MinAmountForSale = 2000, SalePrice = 50, ForClub = True, StartDateSale = 04/03/2025 18:20:09, EndDateSale = 03/04/2025 18:20:09 }
+		18:20:09.5063012
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 4, MinAmountForSale = 2000, SalePrice = 35, ForClub = False, StartDateSale = 04/03/2025 18:20:09, EndDateSale = 14/03/2025 18:20:09 }
+	18:20:09.5099544
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 4, MinAmountForSale = 2000, SalePrice = 35, ForClub = False, StartDateSale = 04/03/2025 18:20:09, EndDateSale = 14/03/2025 18:20:09 }
+		18:20:09.5134243
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 5, MinAmountForSale = 1000, SalePrice = 100, ForClub = True, StartDateSale = 04/03/2025 18:20:09, EndDateSale = 03/04/2025 18:20:09 }
+	18:20:09.5179172
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 5, MinAmountForSale = 1000, SalePrice = 100, ForClub = True, StartDateSale = 04/03/2025 18:20:09, EndDateSale = 03/04/2025 18:20:09 }
+		18:20:09.5205322
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 6, MinAmountForSale = 800, SalePrice = 200, ForClub = True, StartDateSale = 04/03/2025 18:20:09, EndDateSale = 03/05/2025 18:20:09 }
+	18:20:09.5253313
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 6, MinAmountForSale = 800, SalePrice = 200, ForClub = True, StartDateSale = 04/03/2025 18:20:09, EndDateSale = 03/05/2025 18:20:09 }
+		18:20:09.5287061
+	 		 Dal.ProductImplementation.ReadAll
+		readAll products 
+		18:20:32.1188087
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 111, Name = Yeuda, Address = Modin ilit, Phone = 0556767677 }
+		18:20:32.1277590
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 111, Name = Yeuda, Address = Modin ilit, Phone = 0556767677 }
+		18:20:32.1337475
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 222, Name = Rivki, Address = Jerusalem, Phone = 0556764658 }
+		18:20:32.1406335
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 222, Name = Rivki, Address = Jerusalem, Phone = 0556764658 }
+		18:20:32.1453819
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 333, Name = Rut, Address = Bne Brak, Phone = 0556744258 }
+		18:20:32.1504131
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 333, Name = Rut, Address = Bne Brak, Phone = 0556744258 }
+		18:20:32.1551374
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 444, Name = Michal, Address = Modin ilit, Phone = 0556722714 }
+		18:20:32.1597039
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 444, Name = Michal, Address = Modin ilit, Phone = 0556722714 }
+		18:20:32.1647976
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 555, Name = Chaim, Address = Jerusalem, Phone = 0583244056 }
+		18:20:32.1702057
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 555, Name = Chaim, Address = Jerusalem, Phone = 0583244056 }
+		18:20:32.1746537
+	 		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 666, Name = Michael, Address = Jerusalem, Phone = 0527634508 }
+		18:20:32.1794025
+	 		 Dal.CustomerImplementation.Create
+		finish create customer Customer { ID = 666, Name = Michael, Address = Jerusalem, Phone = 0527634508 }
+		18:20:32.1939311
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = lack shoes black to shabes for girls, Category = elegant, Price = 100, Amount = 200 }
+	18:20:32.1986908
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = lack shoes black to shabes for girls, Category = elegant, Price = 100, Amount = 200 }
+		18:20:32.2035780
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = sport shoes gray for girls, Category = sport, Price = 250, Amount = 4000 }
+	18:20:32.2083939
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = sport shoes gray for girls, Category = sport, Price = 250, Amount = 4000 }
+		18:20:32.2131987
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = mokasin shoes brown, Category = women, Price = 100, Amount = 2500 }
+	18:20:32.2175532
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = mokasin shoes brown, Category = women, Price = 100, Amount = 2500 }
+		18:20:32.2224871
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = crocs shoes, Category = men, Price = 60, Amount = 700 }
+	18:20:32.2268584
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = crocs shoes, Category = men, Price = 60, Amount = 700 }
+		18:20:32.2313853
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = first step white-red for children, Category = children, Price = 180, Amount = 1100 }
+	18:20:32.2357215
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = first step white-red for children, Category = children, Price = 180, Amount = 1100 }
+		18:20:32.2398497
+	 		 Dal.ProductImplementation.Create
+		create product Product { ID = 0, Name = comfortable shoes, Category = sport, Price = 300, Amount = 500 }
+	18:20:32.2439094
+	 	 Dal.ProductImplementation.Create
+	finish create product Product { ID = 0, Name = comfortable shoes, Category = sport, Price = 300, Amount = 500 }
+		18:20:32.2558027
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 1, MinAmountForSale = 500, SalePrice = 70, ForClub = True, StartDateSale = 04/03/2025 18:20:32, EndDateSale = 03/04/2025 18:20:32 }
+	18:20:32.2605847
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 1, MinAmountForSale = 500, SalePrice = 70, ForClub = True, StartDateSale = 04/03/2025 18:20:32, EndDateSale = 03/04/2025 18:20:32 }
+		18:20:32.2642104
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 2, MinAmountForSale = 1500, SalePrice = 150, ForClub = False, StartDateSale = 04/03/2025 18:20:32, EndDateSale = 19/03/2025 18:20:32 }
+	18:20:32.2673910
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 2, MinAmountForSale = 1500, SalePrice = 150, ForClub = False, StartDateSale = 04/03/2025 18:20:32, EndDateSale = 19/03/2025 18:20:32 }
+		18:20:32.2706198
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 3, MinAmountForSale = 2000, SalePrice = 50, ForClub = True, StartDateSale = 04/03/2025 18:20:32, EndDateSale = 03/04/2025 18:20:32 }
+	18:20:32.2737898
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 3, MinAmountForSale = 2000, SalePrice = 50, ForClub = True, StartDateSale = 04/03/2025 18:20:32, EndDateSale = 03/04/2025 18:20:32 }
+		18:20:32.2758019
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 4, MinAmountForSale = 2000, SalePrice = 35, ForClub = False, StartDateSale = 04/03/2025 18:20:32, EndDateSale = 14/03/2025 18:20:32 }
+	18:20:32.2792493
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 4, MinAmountForSale = 2000, SalePrice = 35, ForClub = False, StartDateSale = 04/03/2025 18:20:32, EndDateSale = 14/03/2025 18:20:32 }
+		18:20:32.2812826
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 5, MinAmountForSale = 1000, SalePrice = 100, ForClub = True, StartDateSale = 04/03/2025 18:20:32, EndDateSale = 03/04/2025 18:20:32 }
+	18:20:32.2832989
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 5, MinAmountForSale = 1000, SalePrice = 100, ForClub = True, StartDateSale = 04/03/2025 18:20:32, EndDateSale = 03/04/2025 18:20:32 }
+		18:20:32.2861174
+	 		 Dal.SaleImplementation.Create
+		create sale Sale { ID = 0, ProductId = 6, MinAmountForSale = 800, SalePrice = 200, ForClub = True, StartDateSale = 04/03/2025 18:20:32, EndDateSale = 03/05/2025 18:20:32 }
+	18:20:32.2892842
+	 	 Dal.SaleImplementation.Create
+	finish create sale Sale { ID = 0, ProductId = 6, MinAmountForSale = 800, SalePrice = 200, ForClub = True, StartDateSale = 04/03/2025 18:20:32, EndDateSale = 03/05/2025 18:20:32 }
+		18:20:32.2924381
+	 		 Dal.ProductImplementation.ReadAll
+		readAll products 
+			18:20:34.3538187
+	 			 Dal.CustomerImplementation.ReadAll
+			readall customer 
+				18:20:34.3593937
+	 				 Dal.CustomerImplementation.Read
+				read customer 111
+				18:20:34.3635223
+	 				 Dal.CustomerImplementation.Read
+				finish read customer 111
+				18:20:46.8999372
+	 				 Dal.ProductImplementation.Read
+				read product 7

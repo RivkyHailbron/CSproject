@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Product>
+    <ID>1</ID>
+    <Name>lack shoes black to shabes for girls</Name>
+    <Category>elegant</Category>
+    <Price>100</Price>
+    <Amount>200</Amount>
+  </Product>
+  <Product>
+    <ID>2</ID>
+    <Name>sport shoes gray for girls</Name>
+    <Category>sport</Category>
+    <Price>250</Price>
+    <Amount>4000</Amount>
+  </Product>
+  <Product>
+    <ID>3</ID>
+    <Name>mokasin shoes brown</Name>
+    <Category>women</Category>
+    <Price>100</Price>
+    <Amount>2500</Amount>
+  </Product>
+  <Product>
+    <ID>4</ID>
+    <Name>crocs shoes</Name>
+    <Category>men</Category>
+    <Price>60</Price>
+    <Amount>700</Amount>
+  </Product>
+  <Product>
+    <ID>5</ID>
+    <Name>first step white-red for children</Name>
+    <Category>children</Category>
+    <Price>180</Price>
+    <Amount>1100</Amount>
+  </Product>
+  <Product>
+    <ID>6</ID>
+    <Name>comfortable shoes</Name>
+    <Category>sport</Category>
+    <Price>300</Price>
+    <Amount>500</Amount>
+  </Product>
+</ArrayOfProduct>

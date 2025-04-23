@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCustomer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Customer>
+    <ID>111</ID>
+    <Name>Yeuda</Name>
+    <Address>Modin ilit</Address>
+    <Phone>0556767677</Phone>
+  </Customer>
+  <Customer>
+    <ID>222</ID>
+    <Name>Rivki</Name>
+    <Address>Jerusalem</Address>
+    <Phone>0556764658</Phone>
+  </Customer>
+  <Customer>
+    <ID>333</ID>
+    <Name>Rut</Name>
+    <Address>Bne Brak</Address>
+    <Phone>0556744258</Phone>
+  </Customer>
+  <Customer>
+    <ID>444</ID>
+    <Name>Michal</Name>
+    <Address>Modin ilit</Address>
+    <Phone>0556722714</Phone>
+  </Customer>
+  <Customer>
+    <ID>555</ID>
+    <Name>Chaim</Name>
+    <Address>Jerusalem</Address>
+    <Phone>0583244056</Phone>
+  </Customer>
+  <Customer>
+    <ID>666</ID>
+    <Name>Michael</Name>
+    <Address>Jerusalem</Address>
+    <Phone>0527634508</Phone>
+  </Customer>
+  <Customer>
+    <ID>555</ID>
+    <Name>Chaim</Name>
+    <Address>ברכפלד</Address>
+    <Phone>0583244056</Phone>
+  </Customer>
+  <Customer>
+    <ID>666</ID>
+    <Name>Michael</Name>
+    <Address>Jerusalem</Address>
+    <Phone>0527634508</Phone>
+  </Customer>
+  <Customer>
+    <ID>214856668</ID>
+    <Name>רבקי</Name>
+    <Address>רבי עקיבא</Address>
+    <Phone>0556722712</Phone>
+  </Customer>
+  <Customer>
+    <ID>32547</ID>
+    <Name>בושריאן</Name>
+    <Address>רבי עקיבא 9</Address>
+    <Phone>0525252525</Phone>
+  </Customer>
+  <Customer>
+    <ID>214877</ID>
+    <Name>ציבי אינהורן</Name>
+    <Address>קס</Address>
+    <Phone>055555</Phone>
+  </Customer>
+</ArrayOfCustomer>

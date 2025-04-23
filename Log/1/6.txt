@@ -1,0 +1,28 @@
+06/01/2025 00:00:00
+		20
+		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 111, Name = Yeuda, Address = Modin ilit, Phone = 0556767677 }
+20
+ Dal.CustomerImplementation.Create
+finish create customer Customer { ID = 111, Name = Yeuda, Address = Modin ilit, Phone = 0556767677 }
+	20
+	 Dal.CustomerImplementation.Create
+	create customer Customer { ID = 222, Name = Rivki, Address = Jerusalem, Phone = 0556764658 }
+		20
+		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 111, Name = Yeuda, Address = Modin ilit, Phone = 0556767677 }
+20
+ Dal.CustomerImplementation.Create
+finish create customer Customer { ID = 111, Name = Yeuda, Address = Modin ilit, Phone = 0556767677 }
+	20
+	 Dal.CustomerImplementation.Create
+	create customer Customer { ID = 222, Name = Rivki, Address = Jerusalem, Phone = 0556764658 }
+		20
+		 Dal.CustomerImplementation.Create
+		create customer Customer { ID = 111, Name = Yeuda, Address = Modin ilit, Phone = 0556767677 }
+20
+ Dal.CustomerImplementation.Create
+finish create customer Customer { ID = 111, Name = Yeuda, Address = Modin ilit, Phone = 0556767677 }
+	20
+	 Dal.CustomerImplementation.Create
+	create customer Customer { ID = 222, Name = Rivki, Address = Jerusalem, Phone = 0556764658 }

@@ -1,0 +1,83 @@
+﻿using BlApi;
+using BO;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace UI
+{
+    public partial class CustomerOrder : Form
+    {
+        static readonly BlApi.IBl _bl = BlApi.Factory.Get();
+        private BO.Order order;
+        List<BO.SaleInProduct> list;
+
+        public CustomerOrder(bool isClub)
+        {
+            InitializeComponent();
+            order = new BO.Order(isClub);
+            list = new List<BO.SaleInProduct>();
+
+        }
+
+        private void CustomerOrder_Load(object sender, EventArgs e)
+        {
+            listBoxProducts.DataSource = _bl.Product.ReadAll().SelectMany(p => p.ToString().Split("\n")).ToList(); ; // ודא שזו רשימה ולא IEnumerable
+            //listBox1.DataSource = list.ToString().Split("\n");
+        }
+
+        private void buttonAdd_Click(object sender, EventArgs e)
+        {
+            int id, amount;
+            if (int.TryParse(textBoxId.Text, out id) && int.TryParse(numericUpDownAmount.Value.ToString(), out amount))
+            {
+                // הוספת המוצר להזמנה ולקבלת רשימת המבצעים
+                list = _bl.Order.AddProductToOrder(order, id, amount);
+
+                // עדכון רשימת המבצעים למוצר
+                var productInOrder = order.ListOfProductsOrder.Find(p => p.ProductId == id);
+                if (productInOrder != null)
+                {
+                    productInOrder.ListOfSaleForProduct = _bl.Order.SearchSaleForProduct(id, order.IsClubCustomer, productInOrder.Amount);
+                    _bl.Order.CalcTotalPriceForProduct(productInOrder);
+                }
+
+                // עדכון ה-UI
+                listBox1.DataSource = order.ListOfProductsOrder.SelectMany(p => p.ToString().Split("\n")).ToList();
+                AmountForPay.Text = order.FinalPriceForPay.ToString();
+            }
+            textBoxId.Text = "";
+            numericUpDownAmount.Value = 1;
+        }
+
+        private void BtnDelete_Click(object sender, EventArgs e)
+        {
+            int id;
+            if (int.TryParse(textBoxDeleteId.Text, out id))
+            {
+                ProductInOrder p = order.ListOfProductsOrder.Find(p => p.ProductId == id);
+                order.ListOfProductsOrder.Remove(p);
+                listBox1.DataSource = null;
+                listBox1.DataSource = order.ListOfProductsOrder.SelectMany(p => p.ToString().Split("\n")).ToList();
+                _bl.Order.CalcTotalPrice(order);
+                AmountForPay.Text = order.FinalPriceForPay.ToString();
+
+            }
+            textBoxDeleteId.Text = "";
+        }
+
+        private void btnForPay_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($" התשלום בוצע בהצלחה!! \n" +
+                "תודה שקניתם אצלנו!" + order.FinalPriceForPay.ToString());
+            this.Close();
+
+        }
+    }
+}
