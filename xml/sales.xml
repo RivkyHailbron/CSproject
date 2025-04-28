@@ -90,13 +90,5 @@
     <StartDateSale>2025-03-25T18:23:19.3441173+02:00</StartDateSale>
     <EndDateSale>2025-05-24T18:23:19.3441206+03:00</EndDateSale>
   </Sale>
-  <Sale>
-    <ID>1013</ID>
-    <ProductId>0</ProductId>
-    <MinAmountForSale>200</MinAmountForSale>
-    <SalePrice>5</SalePrice>
-    <ForClub>true</ForClub>
-    <StartDateSale>2025-04-09T15:59:03.643</StartDateSale>
-    <EndDateSale>2025-05-05T15:59:03.64</EndDateSale>
-  </Sale>
+
 </ArrayOfSale>

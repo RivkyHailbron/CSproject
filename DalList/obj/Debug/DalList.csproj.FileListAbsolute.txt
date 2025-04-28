@@ -117,3 +117,4 @@ Z:\B\קרשינסקי נחמי\C#\new\CSProject\DalList\obj\Debug\DalList.dll
 Z:\B\קרשינסקי נחמי\C#\new\CSProject\DalList\obj\Debug\refint\DalList.dll
 Z:\B\קרשינסקי נחמי\C#\new\CSProject\DalList\obj\Debug\DalList.pdb
 Z:\B\קרשינסקי נחמי\C#\new\CSProject\DalList\obj\Debug\ref\DalList.dll
+C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\DalList\obj\Debug\DalList.sourcelink.json

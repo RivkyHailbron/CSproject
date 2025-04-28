@@ -102,3 +102,4 @@ Z:\B\קרשינסקי נחמי\C#\new\CSProject\DalFacade\obj\Debug\DalFacade.dl
 Z:\B\קרשינסקי נחמי\C#\new\CSProject\DalFacade\obj\Debug\refint\DalFacade.dll
 Z:\B\קרשינסקי נחמי\C#\new\CSProject\DalFacade\obj\Debug\DalFacade.pdb
 Z:\B\קרשינסקי נחמי\C#\new\CSProject\DalFacade\obj\Debug\ref\DalFacade.dll
+C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\DalFacade\obj\Debug\DalFacade.sourcelink.json

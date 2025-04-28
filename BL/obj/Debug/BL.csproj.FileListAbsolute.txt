@@ -92,3 +92,4 @@ Z:\B\קרשינסקי נחמי\C#\new\CSProject\BL\obj\Debug\BL.dll
 Z:\B\קרשינסקי נחמי\C#\new\CSProject\BL\obj\Debug\refint\BL.dll
 Z:\B\קרשינסקי נחמי\C#\new\CSProject\BL\obj\Debug\BL.pdb
 Z:\B\קרשינסקי נחמי\C#\new\CSProject\BL\obj\Debug\ref\BL.dll
+C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\BL\obj\Debug\BL.sourcelink.json

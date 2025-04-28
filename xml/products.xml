@@ -2,9 +2,9 @@
 <ArrayOfProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Product>
     <ID>1</ID>
-    <Name>lack shoes black to shabes for girls</Name>
+    <Name />
     <Category>elegant</Category>
-    <Price>100</Price>
+    <Price>99</Price>
     <Amount>200</Amount>
   </Product>
   <Product>

@@ -78,3 +78,4 @@ Z:\B\קרשינסקי נחמי\C#\new\CSProject\UI\obj\Debug\refint\UI.dll
 Z:\B\קרשינסקי נחמי\C#\new\CSProject\UI\obj\Debug\UI.pdb
 Z:\B\קרשינסקי נחמי\C#\new\CSProject\UI\obj\Debug\UI.genruntimeconfig.cache
 Z:\B\קרשינסקי נחמי\C#\new\CSProject\UI\obj\Debug\ref\UI.dll
+C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\UI\obj\Debug\UI.sourcelink.json

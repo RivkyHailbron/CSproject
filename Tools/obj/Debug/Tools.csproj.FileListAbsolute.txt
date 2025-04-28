@@ -78,3 +78,4 @@ Z:\B\קרשינסקי נחמי\C#\new\CSProject\Tools\obj\Debug\Tools.dll
 Z:\B\קרשינסקי נחמי\C#\new\CSProject\Tools\obj\Debug\refint\Tools.dll
 Z:\B\קרשינסקי נחמי\C#\new\CSProject\Tools\obj\Debug\Tools.pdb
 Z:\B\קרשינסקי נחמי\C#\new\CSProject\Tools\obj\Debug\ref\Tools.dll
+C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\Tools\obj\Debug\Tools.sourcelink.json

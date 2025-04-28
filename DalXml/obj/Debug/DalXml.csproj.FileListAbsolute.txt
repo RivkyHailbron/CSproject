@@ -79,3 +79,4 @@ Z:\B\קרשינסקי נחמי\C#\new\CSProject\DalXml\obj\Debug\DalXml.dll
 Z:\B\קרשינסקי נחמי\C#\new\CSProject\DalXml\obj\Debug\refint\DalXml.dll
 Z:\B\קרשינסקי נחמי\C#\new\CSProject\DalXml\obj\Debug\DalXml.pdb
 Z:\B\קרשינסקי נחמי\C#\new\CSProject\DalXml\obj\Debug\ref\DalXml.dll
+C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\DalXml\obj\Debug\DalXml.sourcelink.json
