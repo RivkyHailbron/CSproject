@@ -1,20 +1,13 @@
-﻿using DO;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+﻿using BO;
+
 
 namespace UI
 {
     public partial class Customer : Form
     {
         static readonly BlApi.IBl _bl = BlApi.Factory.Get();
+        private bool isClub= false;
+
         public Customer()
         {
             InitializeComponent();
@@ -27,7 +20,7 @@ namespace UI
 
         private void button2_Click(object sender, EventArgs e)
         {
-            CustomerOrder customerOrder = new CustomerOrder(checkBoxIsClub.Checked);
+            CustomerOrder customerOrder = new CustomerOrder(isClub);
             customerOrder.Show();
         }
 
@@ -36,36 +29,39 @@ namespace UI
             try
             {
                 int id;
+                
                 if (int.TryParse(textBoxGetCustomerId.Text, out id))
                 {
-                    if (checkBoxIsClub.Checked)
+                    BO.Customer c = _bl.Customer.Read(id);
+                    if (c!=null )
                     {
-                        BO.Customer c = _bl.Customer.Read(id);
-
+                        isClub = true;
                         textBoxHello.Text = $"Hello club member {c.Name}";
 
                     }
-                    else
-                        textBoxHello.Text = $"hello new ----- {textBoxGetCustomerId.Text}";
-
+                    textBoxGetCustomerId.Enabled = false;
+                    send.Enabled = false;
+                    button2.Enabled = true;
                 }
-                checkBoxIsClub.Enabled = false;
+             
+
+            }
+            catch (BLExceptionIdDoesNotExistInTheList ex)
+            {
+                textBoxHello.Text = $"hello new ----------- {textBoxGetCustomerId.Text}";
                 textBoxGetCustomerId.Enabled = false;
                 send.Enabled = false;
                 button2.Enabled = true;
 
             }
-            catch (DalExceptionIdDoesNotExistInTheList ex)
-            {
-                textBoxHello.Text = $"hello new {textBoxGetCustomerId.Text}";
-
-            }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                //MessageBox.Show(ex.Message);
+                textBoxHello.Text = $"hello new ----------- {textBoxGetCustomerId.Text}";
+                textBoxGetCustomerId.Enabled = false;
+                send.Enabled = false;
+                button2.Enabled = true;
             }
-
-
 
         }
 

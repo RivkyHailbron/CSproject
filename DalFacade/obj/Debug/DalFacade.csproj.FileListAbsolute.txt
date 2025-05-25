@@ -103,3 +103,15 @@ Z:\B\קרשינסקי נחמי\C#\new\CSProject\DalFacade\obj\Debug\refint\DalFa
 Z:\B\קרשינסקי נחמי\C#\new\CSProject\DalFacade\obj\Debug\DalFacade.pdb
 Z:\B\קרשינסקי נחמי\C#\new\CSProject\DalFacade\obj\Debug\ref\DalFacade.dll
 C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\DalFacade\obj\Debug\DalFacade.sourcelink.json
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\bin\DalFacade.deps.json
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\bin\DalFacade.dll
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\bin\DalFacade.pdb
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalFacade\obj\Debug\DalFacade.sourcelink.json
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalFacade\obj\Debug\DalFacade.dll
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalFacade\obj\Debug\refint\DalFacade.dll
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalFacade\obj\Debug\DalFacade.pdb
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalFacade\obj\Debug\ref\DalFacade.dll

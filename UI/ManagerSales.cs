@@ -49,12 +49,13 @@ namespace UI
                     _bl.Sale.Create(new BO.Sale(0,(int) comboBoxlistProductAdd.SelectedValue, salePrice, minAmount, checkBoxClub.Checked,
                         dateTimePickerStartDateSale.Value, dateTimePickerEndDateSale.Value));
                     MessageBox.Show("המבצע נוסף בהצלחה.");
-                    textBoxproductId.Clear();
                     textBoxsalePrice.Clear();
                     textBoxminAmountForSale.Clear();
                     checkBoxClub.Checked = false;
                     dateTimePickerStartDateSale.Value = DateTime.Now;
                     dateTimePickerEndDateSale.Value = DateTime.Now;
+                    listBoxSales.DataSource = _bl.Sale.ReadAll().SelectMany(s => s.ToString().Split("\n")).ToList();
+
                 }
                 catch (Exception ex)
                 {

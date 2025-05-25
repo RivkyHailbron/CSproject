@@ -100,23 +100,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user1\\.nuget\\packages\\": {},
+    "C:\\Users\\huser\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\DotNet2025_4329_6668\\UI\\UI.csproj",
+      "projectUniqueName": "Z:\\B\\היילברון רבקה\\c#\\FinalProject\\CSproject\\UI\\UI.csproj",
       "projectName": "UI",
-      "projectPath": "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\DotNet2025_4329_6668\\UI\\UI.csproj",
-      "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\DotNet2025_4329_6668\\UI\\obj\\",
+      "projectPath": "Z:\\B\\היילברון רבקה\\c#\\FinalProject\\CSproject\\UI\\UI.csproj",
+      "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
+      "outputPath": "Z:\\B\\היילברון רבקה\\c#\\FinalProject\\CSproject\\UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\huser\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -125,14 +125,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\DotNet2025_4329_6668\\BL\\BL.csproj": {
-              "projectPath": "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\DotNet2025_4329_6668\\BL\\BL.csproj"
+            "Z:\\B\\היילברון רבקה\\c#\\FinalProject\\CSproject\\BL\\BL.csproj": {
+              "projectPath": "Z:\\B\\היילברון רבקה\\c#\\FinalProject\\CSproject\\BL\\BL.csproj"
             }
           }
         }
@@ -147,7 +148,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -171,7 +172,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

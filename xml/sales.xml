@@ -1,13 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ArrayOfSale>
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSale xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Sale>
     <ID>1001</ID>
     <ProductId>1</ProductId>
-    <MinAmountForSale>180</MinAmountForSale>
-    <SalePrice>3</SalePrice>
+    <MinAmountForSale>1</MinAmountForSale>
+    <SalePrice>80</SalePrice>
     <ForClub>false</ForClub>
-    <StartDateSale>2025-04-23</StartDateSale>
-    <EndDateSale>2025-04-29</EndDateSale>
+    <StartDateSale>2025-04-23T00:00:00</StartDateSale>
+    <EndDateSale>2025-04-29T00:00:00</EndDateSale>
   </Sale>
   <Sale>
     <ID>1002</ID>
@@ -90,5 +90,4 @@
     <StartDateSale>2025-03-25T18:23:19.3441173+02:00</StartDateSale>
     <EndDateSale>2025-05-24T18:23:19.3441206+03:00</EndDateSale>
   </Sale>
-
 </ArrayOfSale>

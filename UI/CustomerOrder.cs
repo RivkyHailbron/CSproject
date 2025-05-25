@@ -29,7 +29,6 @@ namespace UI
         private void CustomerOrder_Load(object sender, EventArgs e)
         {
             listBoxProducts.DataSource = _bl.Product.ReadAll().SelectMany(p => p.ToString().Split("\n")).ToList(); ; // ודא שזו רשימה ולא IEnumerable
-            //listBox1.DataSource = list.ToString().Split("\n");
         }
 
         private void buttonAdd_Click(object sender, EventArgs e)
@@ -77,6 +76,11 @@ namespace UI
             MessageBox.Show($" התשלום בוצע בהצלחה!! \n" +
                 "תודה שקניתם אצלנו!" + order.FinalPriceForPay.ToString());
             this.Close();
+
+        }
+
+        private void listBoxProducts_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
         }
     }

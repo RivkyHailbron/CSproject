@@ -93,3 +93,17 @@ Z:\B\קרשינסקי נחמי\C#\new\CSProject\BL\obj\Debug\refint\BL.dll
 Z:\B\קרשינסקי נחמי\C#\new\CSProject\BL\obj\Debug\BL.pdb
 Z:\B\קרשינסקי נחמי\C#\new\CSProject\BL\obj\Debug\ref\BL.dll
 C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\BL\obj\Debug\BL.sourcelink.json
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\bin\BL.deps.json
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\bin\BL.dll
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\bin\BL.pdb
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\BL\obj\Debug\BL.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\BL\obj\Debug\BL.AssemblyInfoInputs.cache
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\BL\obj\Debug\BL.AssemblyInfo.cs
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\BL\obj\Debug\BL.sourcelink.json
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\BL\obj\Debug\BL.csproj.Up2Date
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\BL\obj\Debug\BL.dll
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\BL\obj\Debug\refint\BL.dll
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\BL\obj\Debug\BL.pdb
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\BL\obj\Debug\ref\BL.dll

@@ -38,40 +38,41 @@ internal class OrderImplementation : BlApi.IOrder
 
     public void CalcTotalPriceForProduct(BO.ProductInOrder productInOrder)
     {
-
         try
         {
             int count = productInOrder.Amount;
             double totalSum = 0;
-            int max;
             List<BO.SaleInProduct> salesList = new List<BO.SaleInProduct>();
+
             foreach (BO.SaleInProduct sale in productInOrder.ListOfSaleForProduct)
             {
                 if (count <= 0)
                     break;
+
                 if (sale.MinAmountOfSale <= count)
                 {
-                    max = count / sale.MinAmountOfSale;
-                    totalSum += max * sale.Price;
-                    count -= max * sale.MinAmountOfSale; // עדכן את count בהתאם
-                    salesList.Add(sale);
+                    int max = count / sale.MinAmountOfSale; // כמה פעמים אפשר לממש את המבצע
+                    totalSum += max * sale.Price; // הוסף את הסכום של המבצע
+                    count -= max * sale.MinAmountOfSale; // עדכן את count
+                    salesList.Add(sale); // הוסף את המבצע לרשימה
                 }
-
             }
+
+            // אם נשארו מוצרים שלא מנוצלים במבצעים
             if (count > 0)
             {
-                totalSum += (productInOrder.BasePrice * count);
-
+                totalSum += (productInOrder.BasePrice * count); // הוסף את המחיר הבסיסי
             }
-            productInOrder.ListOfSaleForProduct = salesList;
-            productInOrder.FinalPrice = totalSum;
-        }
-        catch
-        {
-            throw;
 
+            productInOrder.ListOfSaleForProduct = salesList;
+            productInOrder.FinalPrice = totalSum; // עדכן את המחיר הסופי
+        }
+        catch (Exception ex)
+        {
+            throw new Exception("Error calculating total price for product", ex);
         }
     }
+
 
     //חישוב הסכום הסופי לתשלום להזמנה.
     public void CalcTotalPrice(BO.Order order)

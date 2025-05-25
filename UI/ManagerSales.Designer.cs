@@ -29,8 +29,10 @@
         private void InitializeComponent()
         {
             Label productId;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManagerSales));
             tabControlCustomers = new TabControl();
             add = new TabPage();
+            comboBoxlistProductAdd = new ComboBox();
             dateTimePickerEndDateSale = new DateTimePicker();
             dateTimePickerStartDateSale = new DateTimePicker();
             checkBoxClub = new CheckBox();
@@ -39,7 +41,6 @@
             buttonAdd = new Button();
             textBoxminAmountForSale = new TextBox();
             textBoxsalePrice = new TextBox();
-            textBoxproductId = new TextBox();
             salePrice = new Label();
             minAmountForSale = new Label();
             update = new TabPage();
@@ -79,7 +80,7 @@
             button1 = new Button();
             textBoxFilter = new TextBox();
             listBoxSales = new ListBox();
-            comboBoxlistProductAdd = new ComboBox();
+            pictureBox1 = new PictureBox();
             productId = new Label();
             tabControlCustomers.SuspendLayout();
             add.SuspendLayout();
@@ -87,6 +88,7 @@
             delete.SuspendLayout();
             readById.SuspendLayout();
             filter.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // productId
@@ -95,9 +97,9 @@
             productId.Location = new Point(317, 86);
             productId.Name = "productId";
             productId.RightToLeft = RightToLeft.Yes;
-            productId.Size = new Size(63, 15);
+            productId.Size = new Size(52, 15);
             productId.TabIndex = 0;
-            productId.Text = "מזהה מוצר";
+            productId.Text = "שם מוצר";
             // 
             // tabControlCustomers
             // 
@@ -106,13 +108,13 @@
             tabControlCustomers.Controls.Add(delete);
             tabControlCustomers.Controls.Add(readById);
             tabControlCustomers.Controls.Add(filter);
-            tabControlCustomers.Location = new Point(26, 9);
+            tabControlCustomers.Location = new Point(68, 193);
             tabControlCustomers.Margin = new Padding(3, 2, 3, 2);
             tabControlCustomers.Name = "tabControlCustomers";
             tabControlCustomers.RightToLeft = RightToLeft.Yes;
             tabControlCustomers.RightToLeftLayout = true;
             tabControlCustomers.SelectedIndex = 0;
-            tabControlCustomers.Size = new Size(530, 438);
+            tabControlCustomers.Size = new Size(518, 438);
             tabControlCustomers.TabIndex = 3;
             // 
             // add
@@ -126,7 +128,6 @@
             add.Controls.Add(buttonAdd);
             add.Controls.Add(textBoxminAmountForSale);
             add.Controls.Add(textBoxsalePrice);
-            add.Controls.Add(textBoxproductId);
             add.Controls.Add(salePrice);
             add.Controls.Add(minAmountForSale);
             add.Controls.Add(productId);
@@ -134,10 +135,18 @@
             add.Margin = new Padding(3, 2, 3, 2);
             add.Name = "add";
             add.Padding = new Padding(3, 2, 3, 2);
-            add.Size = new Size(522, 410);
+            add.Size = new Size(510, 410);
             add.TabIndex = 0;
             add.Text = "הוספה";
             add.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxlistProductAdd
+            // 
+            comboBoxlistProductAdd.FormattingEnabled = true;
+            comboBoxlistProductAdd.Location = new Point(164, 84);
+            comboBoxlistProductAdd.Name = "comboBoxlistProductAdd";
+            comboBoxlistProductAdd.Size = new Size(121, 23);
+            comboBoxlistProductAdd.TabIndex = 12;
             // 
             // dateTimePickerEndDateSale
             // 
@@ -212,14 +221,6 @@
             textBoxsalePrice.Size = new Size(110, 23);
             textBoxsalePrice.TabIndex = 1;
             // 
-            // textBoxproductId
-            // 
-            textBoxproductId.Location = new Point(178, 80);
-            textBoxproductId.Margin = new Padding(3, 2, 3, 2);
-            textBoxproductId.Name = "textBoxproductId";
-            textBoxproductId.Size = new Size(110, 23);
-            textBoxproductId.TabIndex = 1;
-            // 
             // salePrice
             // 
             salePrice.AutoSize = true;
@@ -259,7 +260,7 @@
             update.Margin = new Padding(3, 2, 3, 2);
             update.Name = "update";
             update.Padding = new Padding(3, 2, 3, 2);
-            update.Size = new Size(522, 410);
+            update.Size = new Size(510, 410);
             update.TabIndex = 1;
             update.Text = "עדכון";
             update.UseVisualStyleBackColor = true;
@@ -420,7 +421,7 @@
             delete.Location = new Point(4, 24);
             delete.Margin = new Padding(3, 2, 3, 2);
             delete.Name = "delete";
-            delete.Size = new Size(522, 410);
+            delete.Size = new Size(510, 410);
             delete.TabIndex = 2;
             delete.Text = "מחיקה";
             delete.UseVisualStyleBackColor = true;
@@ -468,7 +469,7 @@
             readById.Location = new Point(4, 24);
             readById.Margin = new Padding(3, 2, 3, 2);
             readById.Name = "readById";
-            readById.Size = new Size(522, 410);
+            readById.Size = new Size(510, 410);
             readById.TabIndex = 3;
             readById.Text = "הצגת מבצע ע\"י מזהה";
             readById.UseVisualStyleBackColor = true;
@@ -577,7 +578,7 @@
             filter.Controls.Add(textBoxFilter);
             filter.Location = new Point(4, 24);
             filter.Name = "filter";
-            filter.Size = new Size(522, 410);
+            filter.Size = new Size(510, 410);
             filter.TabIndex = 4;
             filter.Text = "סינון לפי מוצר";
             filter.UseVisualStyleBackColor = true;
@@ -623,25 +624,28 @@
             // 
             listBoxSales.FormattingEnabled = true;
             listBoxSales.ItemHeight = 15;
-            listBoxSales.Location = new Point(571, 9);
+            listBoxSales.Location = new Point(1012, 199);
             listBoxSales.Margin = new Padding(3, 2, 3, 2);
             listBoxSales.Name = "listBoxSales";
-            listBoxSales.Size = new Size(301, 439);
+            listBoxSales.Size = new Size(405, 409);
             listBoxSales.TabIndex = 2;
             // 
-            // comboBoxlistProductAdd
+            // pictureBox1
             // 
-            comboBoxlistProductAdd.FormattingEnabled = true;
-            comboBoxlistProductAdd.Location = new Point(51, 78);
-            comboBoxlistProductAdd.Name = "comboBoxlistProductAdd";
-            comboBoxlistProductAdd.Size = new Size(121, 23);
-            comboBoxlistProductAdd.TabIndex = 12;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(558, 14);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(415, 154);
+            pictureBox1.TabIndex = 5;
+            pictureBox1.TabStop = false;
             // 
             // ManagerSales
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(891, 467);
+            ClientSize = new Size(1463, 642);
+            Controls.Add(pictureBox1);
             Controls.Add(tabControlCustomers);
             Controls.Add(listBoxSales);
             Margin = new Padding(3, 2, 3, 2);
@@ -659,6 +663,7 @@
             readById.PerformLayout();
             filter.ResumeLayout(false);
             filter.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -669,7 +674,6 @@
         private Button buttonAdd;
         private TextBox textBoxminAmountForSale;
         private TextBox textBoxsalePrice;
-        private TextBox textBoxproductId;
         private Label salePrice;
         private Label minAmountForSale;
         private Label productId;
@@ -719,5 +723,6 @@
         private Button button1;
         private TextBox textBoxFilter;
         private ComboBox comboBoxlistProductAdd;
+        private PictureBox pictureBox1;
     }
 }

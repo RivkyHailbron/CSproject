@@ -118,3 +118,17 @@ Z:\B\קרשינסקי נחמי\C#\new\CSProject\DalList\obj\Debug\refint\DalList
 Z:\B\קרשינסקי נחמי\C#\new\CSProject\DalList\obj\Debug\DalList.pdb
 Z:\B\קרשינסקי נחמי\C#\new\CSProject\DalList\obj\Debug\ref\DalList.dll
 C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\DalList\obj\Debug\DalList.sourcelink.json
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\bin\DalList.deps.json
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\bin\DalList.dll
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\bin\DalList.pdb
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalList\obj\Debug\DalList.AssemblyInfo.cs
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalList\obj\Debug\DalList.sourcelink.json
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalList\obj\Debug\DalList.csproj.Up2Date
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalList\obj\Debug\DalList.dll
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalList\obj\Debug\refint\DalList.dll
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalList\obj\Debug\DalList.pdb
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalList\obj\Debug\ref\DalList.dll

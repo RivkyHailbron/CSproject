@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManagerCustomers));
             listBoxCustomers = new ListBox();
             tabControlCustomers = new TabControl();
             add = new TabPage();
@@ -65,19 +66,23 @@
             BtnRead = new Button();
             textBoxReadId = new TextBox();
             label6 = new Label();
+            pictureBox1 = new PictureBox();
             tabControlCustomers.SuspendLayout();
             add.SuspendLayout();
             update.SuspendLayout();
             delete.SuspendLayout();
             readById.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // listBoxCustomers
             // 
             listBoxCustomers.FormattingEnabled = true;
-            listBoxCustomers.Location = new Point(432, 35);
+            listBoxCustomers.ItemHeight = 15;
+            listBoxCustomers.Location = new Point(1015, 206);
+            listBoxCustomers.Margin = new Padding(3, 2, 3, 2);
             listBoxCustomers.Name = "listBoxCustomers";
-            listBoxCustomers.Size = new Size(345, 384);
+            listBoxCustomers.Size = new Size(402, 424);
             listBoxCustomers.TabIndex = 0;
             listBoxCustomers.SelectedIndexChanged += listBoxCustomers_SelectedIndexChanged;
             // 
@@ -87,12 +92,13 @@
             tabControlCustomers.Controls.Add(update);
             tabControlCustomers.Controls.Add(delete);
             tabControlCustomers.Controls.Add(readById);
-            tabControlCustomers.Location = new Point(35, 35);
+            tabControlCustomers.Location = new Point(107, 185);
+            tabControlCustomers.Margin = new Padding(3, 2, 3, 2);
             tabControlCustomers.Name = "tabControlCustomers";
             tabControlCustomers.RightToLeft = RightToLeft.Yes;
             tabControlCustomers.RightToLeftLayout = true;
             tabControlCustomers.SelectedIndex = 0;
-            tabControlCustomers.Size = new Size(357, 384);
+            tabControlCustomers.Size = new Size(358, 445);
             tabControlCustomers.TabIndex = 1;
             // 
             // add
@@ -106,19 +112,21 @@
             add.Controls.Add(address);
             add.Controls.Add(name);
             add.Controls.Add(ID);
-            add.Location = new Point(4, 29);
+            add.Location = new Point(4, 24);
+            add.Margin = new Padding(3, 2, 3, 2);
             add.Name = "add";
-            add.Padding = new Padding(3);
-            add.Size = new Size(349, 351);
+            add.Padding = new Padding(3, 2, 3, 2);
+            add.Size = new Size(350, 417);
             add.TabIndex = 0;
             add.Text = "הוספה";
             add.UseVisualStyleBackColor = true;
             // 
             // buttonAdd
             // 
-            buttonAdd.Location = new Point(114, 281);
+            buttonAdd.Location = new Point(100, 211);
+            buttonAdd.Margin = new Padding(3, 2, 3, 2);
             buttonAdd.Name = "buttonAdd";
-            buttonAdd.Size = new Size(94, 29);
+            buttonAdd.Size = new Size(82, 22);
             buttonAdd.TabIndex = 2;
             buttonAdd.Text = "הוסף";
             buttonAdd.UseVisualStyleBackColor = true;
@@ -126,66 +134,70 @@
             // 
             // textBoxPhone
             // 
-            textBoxPhone.Location = new Point(87, 218);
+            textBoxPhone.Location = new Point(76, 164);
+            textBoxPhone.Margin = new Padding(3, 2, 3, 2);
             textBoxPhone.Name = "textBoxPhone";
-            textBoxPhone.Size = new Size(125, 27);
+            textBoxPhone.Size = new Size(110, 23);
             textBoxPhone.TabIndex = 1;
             // 
             // textBoxAddress
             // 
-            textBoxAddress.Location = new Point(87, 167);
+            textBoxAddress.Location = new Point(76, 125);
+            textBoxAddress.Margin = new Padding(3, 2, 3, 2);
             textBoxAddress.Name = "textBoxAddress";
-            textBoxAddress.Size = new Size(125, 27);
+            textBoxAddress.Size = new Size(110, 23);
             textBoxAddress.TabIndex = 1;
             // 
             // textBoxName
             // 
-            textBoxName.Location = new Point(87, 115);
+            textBoxName.Location = new Point(76, 86);
+            textBoxName.Margin = new Padding(3, 2, 3, 2);
             textBoxName.Name = "textBoxName";
-            textBoxName.Size = new Size(125, 27);
+            textBoxName.Size = new Size(110, 23);
             textBoxName.TabIndex = 1;
             // 
             // textBoxId
             // 
-            textBoxId.Location = new Point(87, 67);
+            textBoxId.Location = new Point(76, 50);
+            textBoxId.Margin = new Padding(3, 2, 3, 2);
             textBoxId.Name = "textBoxId";
-            textBoxId.Size = new Size(125, 27);
+            textBoxId.Size = new Size(110, 23);
             textBoxId.TabIndex = 1;
             // 
             // phone
             // 
             phone.AutoSize = true;
-            phone.Location = new Point(240, 225);
+            phone.Location = new Point(210, 169);
             phone.Name = "phone";
-            phone.Size = new Size(44, 20);
+            phone.Size = new Size(36, 15);
             phone.TabIndex = 0;
             phone.Text = "טלפון";
             // 
             // address
             // 
             address.AutoSize = true;
-            address.Location = new Point(232, 174);
+            address.Location = new Point(203, 130);
             address.Name = "address";
-            address.Size = new Size(52, 20);
+            address.Size = new Size(42, 15);
             address.TabIndex = 0;
             address.Text = "כתובת";
             // 
             // name
             // 
             name.AutoSize = true;
-            name.Location = new Point(244, 122);
+            name.Location = new Point(214, 92);
             name.Name = "name";
             name.RightToLeft = RightToLeft.Yes;
-            name.Size = new Size(31, 20);
+            name.Size = new Size(24, 15);
             name.TabIndex = 0;
             name.Text = "שם";
             // 
             // ID
             // 
             ID.AutoSize = true;
-            ID.Location = new Point(218, 70);
+            ID.Location = new Point(191, 52);
             ID.Name = "ID";
-            ID.Size = new Size(85, 20);
+            ID.Size = new Size(68, 15);
             ID.TabIndex = 0;
             ID.Text = "תעודת זהות";
             // 
@@ -201,19 +213,21 @@
             update.Controls.Add(sendIdToUpdate);
             update.Controls.Add(textBoxUpdateId);
             update.Controls.Add(label1);
-            update.Location = new Point(4, 29);
+            update.Location = new Point(4, 24);
+            update.Margin = new Padding(3, 2, 3, 2);
             update.Name = "update";
-            update.Padding = new Padding(3);
-            update.Size = new Size(349, 370);
+            update.Padding = new Padding(3, 2, 3, 2);
+            update.Size = new Size(562, 417);
             update.TabIndex = 1;
             update.Text = "עדכון";
             update.UseVisualStyleBackColor = true;
             // 
             // BtnUpdate
             // 
-            BtnUpdate.Location = new Point(44, 300);
+            BtnUpdate.Location = new Point(38, 225);
+            BtnUpdate.Margin = new Padding(3, 2, 3, 2);
             BtnUpdate.Name = "BtnUpdate";
-            BtnUpdate.Size = new Size(94, 29);
+            BtnUpdate.Size = new Size(82, 22);
             BtnUpdate.TabIndex = 11;
             BtnUpdate.Text = "עדכן";
             BtnUpdate.UseVisualStyleBackColor = true;
@@ -222,34 +236,37 @@
             // 
             // textBoxUpdatePhone
             // 
-            textBoxUpdatePhone.Location = new Point(85, 236);
+            textBoxUpdatePhone.Location = new Point(74, 177);
+            textBoxUpdatePhone.Margin = new Padding(3, 2, 3, 2);
             textBoxUpdatePhone.Name = "textBoxUpdatePhone";
-            textBoxUpdatePhone.Size = new Size(125, 27);
+            textBoxUpdatePhone.Size = new Size(110, 23);
             textBoxUpdatePhone.TabIndex = 8;
             textBoxUpdatePhone.Visible = false;
             // 
             // textBoxUpdateAddress
             // 
-            textBoxUpdateAddress.Location = new Point(85, 185);
+            textBoxUpdateAddress.Location = new Point(74, 139);
+            textBoxUpdateAddress.Margin = new Padding(3, 2, 3, 2);
             textBoxUpdateAddress.Name = "textBoxUpdateAddress";
-            textBoxUpdateAddress.Size = new Size(125, 27);
+            textBoxUpdateAddress.Size = new Size(110, 23);
             textBoxUpdateAddress.TabIndex = 9;
             textBoxUpdateAddress.Visible = false;
             // 
             // textBoxUpdateName
             // 
-            textBoxUpdateName.Location = new Point(85, 133);
+            textBoxUpdateName.Location = new Point(74, 100);
+            textBoxUpdateName.Margin = new Padding(3, 2, 3, 2);
             textBoxUpdateName.Name = "textBoxUpdateName";
-            textBoxUpdateName.Size = new Size(125, 27);
+            textBoxUpdateName.Size = new Size(110, 23);
             textBoxUpdateName.TabIndex = 10;
             textBoxUpdateName.Visible = false;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(238, 243);
+            label2.Location = new Point(208, 182);
             label2.Name = "label2";
-            label2.Size = new Size(44, 20);
+            label2.Size = new Size(36, 15);
             label2.TabIndex = 5;
             label2.Text = "טלפון";
             label2.Visible = false;
@@ -257,9 +274,9 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(230, 192);
+            label3.Location = new Point(201, 144);
             label3.Name = "label3";
-            label3.Size = new Size(52, 20);
+            label3.Size = new Size(42, 15);
             label3.TabIndex = 6;
             label3.Text = "כתובת";
             label3.Visible = false;
@@ -267,19 +284,20 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(242, 140);
+            label4.Location = new Point(212, 105);
             label4.Name = "label4";
             label4.RightToLeft = RightToLeft.Yes;
-            label4.Size = new Size(31, 20);
+            label4.Size = new Size(24, 15);
             label4.TabIndex = 7;
             label4.Text = "שם";
             label4.Visible = false;
             // 
             // sendIdToUpdate
             // 
-            sendIdToUpdate.Location = new Point(142, 86);
+            sendIdToUpdate.Location = new Point(124, 64);
+            sendIdToUpdate.Margin = new Padding(3, 2, 3, 2);
             sendIdToUpdate.Name = "sendIdToUpdate";
-            sendIdToUpdate.Size = new Size(94, 29);
+            sendIdToUpdate.Size = new Size(82, 22);
             sendIdToUpdate.TabIndex = 4;
             sendIdToUpdate.Text = "שלח";
             sendIdToUpdate.UseVisualStyleBackColor = true;
@@ -287,17 +305,18 @@
             // 
             // textBoxUpdateId
             // 
-            textBoxUpdateId.Location = new Point(88, 43);
+            textBoxUpdateId.Location = new Point(77, 32);
+            textBoxUpdateId.Margin = new Padding(3, 2, 3, 2);
             textBoxUpdateId.Name = "textBoxUpdateId";
-            textBoxUpdateId.Size = new Size(125, 27);
+            textBoxUpdateId.Size = new Size(110, 23);
             textBoxUpdateId.TabIndex = 3;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(219, 46);
+            label1.Location = new Point(192, 34);
             label1.Name = "label1";
-            label1.Size = new Size(85, 20);
+            label1.Size = new Size(68, 15);
             label1.TabIndex = 2;
             label1.Text = "תעודת זהות";
             // 
@@ -306,18 +325,20 @@
             delete.Controls.Add(BtnDelete);
             delete.Controls.Add(textBoxDeleteId);
             delete.Controls.Add(label5);
-            delete.Location = new Point(4, 29);
+            delete.Location = new Point(4, 24);
+            delete.Margin = new Padding(3, 2, 3, 2);
             delete.Name = "delete";
-            delete.Size = new Size(349, 370);
+            delete.Size = new Size(562, 417);
             delete.TabIndex = 2;
             delete.Text = "מחיקה";
             delete.UseVisualStyleBackColor = true;
             // 
             // BtnDelete
             // 
-            BtnDelete.Location = new Point(120, 182);
+            BtnDelete.Location = new Point(105, 136);
+            BtnDelete.Margin = new Padding(3, 2, 3, 2);
             BtnDelete.Name = "BtnDelete";
-            BtnDelete.Size = new Size(94, 29);
+            BtnDelete.Size = new Size(82, 22);
             BtnDelete.TabIndex = 7;
             BtnDelete.Text = "מחיקה";
             BtnDelete.UseVisualStyleBackColor = true;
@@ -325,17 +346,18 @@
             // 
             // textBoxDeleteId
             // 
-            textBoxDeleteId.Location = new Point(66, 139);
+            textBoxDeleteId.Location = new Point(58, 104);
+            textBoxDeleteId.Margin = new Padding(3, 2, 3, 2);
             textBoxDeleteId.Name = "textBoxDeleteId";
-            textBoxDeleteId.Size = new Size(125, 27);
+            textBoxDeleteId.Size = new Size(110, 23);
             textBoxDeleteId.TabIndex = 6;
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(197, 142);
+            label5.Location = new Point(172, 106);
             label5.Name = "label5";
-            label5.Size = new Size(85, 20);
+            label5.Size = new Size(68, 15);
             label5.TabIndex = 5;
             label5.Text = "תעודת זהות";
             // 
@@ -350,43 +372,47 @@
             readById.Controls.Add(BtnRead);
             readById.Controls.Add(textBoxReadId);
             readById.Controls.Add(label6);
-            readById.Location = new Point(4, 29);
+            readById.Location = new Point(4, 24);
+            readById.Margin = new Padding(3, 2, 3, 2);
             readById.Name = "readById";
-            readById.Size = new Size(349, 370);
+            readById.Size = new Size(562, 417);
             readById.TabIndex = 3;
             readById.Text = "הצגת לקוח ע\"י ת.ז.";
             readById.UseVisualStyleBackColor = true;
             // 
             // textBoxReadPhone
             // 
-            textBoxReadPhone.Location = new Point(92, 245);
+            textBoxReadPhone.Location = new Point(80, 184);
+            textBoxReadPhone.Margin = new Padding(3, 2, 3, 2);
             textBoxReadPhone.Name = "textBoxReadPhone";
-            textBoxReadPhone.Size = new Size(125, 27);
+            textBoxReadPhone.Size = new Size(110, 23);
             textBoxReadPhone.TabIndex = 14;
             textBoxReadPhone.Visible = false;
             // 
             // textBoxReadAddress
             // 
-            textBoxReadAddress.Location = new Point(92, 194);
+            textBoxReadAddress.Location = new Point(80, 146);
+            textBoxReadAddress.Margin = new Padding(3, 2, 3, 2);
             textBoxReadAddress.Name = "textBoxReadAddress";
-            textBoxReadAddress.Size = new Size(125, 27);
+            textBoxReadAddress.Size = new Size(110, 23);
             textBoxReadAddress.TabIndex = 15;
             textBoxReadAddress.Visible = false;
             // 
             // textBoxReadName
             // 
-            textBoxReadName.Location = new Point(92, 142);
+            textBoxReadName.Location = new Point(80, 106);
+            textBoxReadName.Margin = new Padding(3, 2, 3, 2);
             textBoxReadName.Name = "textBoxReadName";
-            textBoxReadName.Size = new Size(125, 27);
+            textBoxReadName.Size = new Size(110, 23);
             textBoxReadName.TabIndex = 16;
             textBoxReadName.Visible = false;
             // 
             // labelReadPhone
             // 
             labelReadPhone.AutoSize = true;
-            labelReadPhone.Location = new Point(245, 252);
+            labelReadPhone.Location = new Point(214, 189);
             labelReadPhone.Name = "labelReadPhone";
-            labelReadPhone.Size = new Size(44, 20);
+            labelReadPhone.Size = new Size(36, 15);
             labelReadPhone.TabIndex = 11;
             labelReadPhone.Text = "טלפון";
             labelReadPhone.Visible = false;
@@ -394,9 +420,9 @@
             // labelReadAddress
             // 
             labelReadAddress.AutoSize = true;
-            labelReadAddress.Location = new Point(237, 201);
+            labelReadAddress.Location = new Point(207, 151);
             labelReadAddress.Name = "labelReadAddress";
-            labelReadAddress.Size = new Size(52, 20);
+            labelReadAddress.Size = new Size(42, 15);
             labelReadAddress.TabIndex = 12;
             labelReadAddress.Text = "כתובת";
             labelReadAddress.Visible = false;
@@ -404,19 +430,20 @@
             // labelReadName
             // 
             labelReadName.AutoSize = true;
-            labelReadName.Location = new Point(249, 149);
+            labelReadName.Location = new Point(218, 112);
             labelReadName.Name = "labelReadName";
             labelReadName.RightToLeft = RightToLeft.Yes;
-            labelReadName.Size = new Size(31, 20);
+            labelReadName.Size = new Size(24, 15);
             labelReadName.TabIndex = 13;
             labelReadName.Text = "שם";
             labelReadName.Visible = false;
             // 
             // BtnRead
             // 
-            BtnRead.Location = new Point(123, 77);
+            BtnRead.Location = new Point(108, 58);
+            BtnRead.Margin = new Padding(3, 2, 3, 2);
             BtnRead.Name = "BtnRead";
-            BtnRead.Size = new Size(94, 29);
+            BtnRead.Size = new Size(82, 22);
             BtnRead.TabIndex = 10;
             BtnRead.Text = "שלח";
             BtnRead.UseVisualStyleBackColor = true;
@@ -424,27 +451,40 @@
             // 
             // textBoxReadId
             // 
-            textBoxReadId.Location = new Point(69, 34);
+            textBoxReadId.Location = new Point(60, 26);
+            textBoxReadId.Margin = new Padding(3, 2, 3, 2);
             textBoxReadId.Name = "textBoxReadId";
-            textBoxReadId.Size = new Size(125, 27);
+            textBoxReadId.Size = new Size(110, 23);
             textBoxReadId.TabIndex = 9;
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(200, 37);
+            label6.Location = new Point(175, 28);
             label6.Name = "label6";
-            label6.Size = new Size(85, 20);
+            label6.Size = new Size(68, 15);
             label6.TabIndex = 8;
             label6.Text = "תעודת זהות";
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(543, 11);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(415, 154);
+            pictureBox1.TabIndex = 5;
+            pictureBox1.TabStop = false;
+            // 
             // ManagerCustomers
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1481, 662);
+            Controls.Add(pictureBox1);
             Controls.Add(tabControlCustomers);
             Controls.Add(listBoxCustomers);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "ManagerCustomers";
             RightToLeftLayout = true;
             Text = "ManagerCustomers";
@@ -458,6 +498,7 @@
             delete.PerformLayout();
             readById.ResumeLayout(false);
             readById.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -500,5 +541,6 @@
         private Button BtnRead;
         private TextBox textBoxReadId;
         private Label label6;
+        private PictureBox pictureBox1;
     }
 }

@@ -38,9 +38,10 @@
             // 
             // manager
             // 
-            manager.Location = new Point(433, 197);
+            manager.Location = new Point(901, 287);
+            manager.Margin = new Padding(3, 2, 3, 2);
             manager.Name = "manager";
-            manager.Size = new Size(117, 39);
+            manager.Size = new Size(259, 89);
             manager.TabIndex = 0;
             manager.Text = "מנהל";
             manager.UseVisualStyleBackColor = true;
@@ -48,9 +49,10 @@
             // 
             // customer
             // 
-            customer.Location = new Point(238, 197);
+            customer.Location = new Point(249, 300);
+            customer.Margin = new Padding(3, 2, 3, 2);
             customer.Name = "customer";
-            customer.Size = new Size(135, 39);
+            customer.Size = new Size(275, 89);
             customer.TabIndex = 0;
             customer.Text = "קופאי";
             customer.UseVisualStyleBackColor = true;
@@ -61,31 +63,34 @@
             TOGO.BackColor = Color.Red;
             TOGO.Font = new Font("Segoe UI", 50F);
             TOGO.ForeColor = SystemColors.ButtonHighlight;
-            TOGO.Location = new Point(223, 30);
+            TOGO.Location = new Point(434, 455);
             TOGO.Name = "TOGO";
-            TOGO.Size = new Size(353, 113);
+            TOGO.Size = new Size(466, 145);
             TOGO.TabIndex = 1;
             TOGO.Text = "TOGO";
             TOGO.TextAlign = ContentAlignment.MiddleCenter;
+            TOGO.Click += TOGO_Click_1;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(196, 265);
+            pictureBox1.Location = new Point(457, 97);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(401, 140);
+            pictureBox1.Size = new Size(415, 154);
             pictureBox1.TabIndex = 2;
             pictureBox1.TabStop = false;
             // 
             // Home
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1484, 635);
             Controls.Add(pictureBox1);
             Controls.Add(TOGO);
             Controls.Add(customer);
             Controls.Add(manager);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Home";
             Text = "Home";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

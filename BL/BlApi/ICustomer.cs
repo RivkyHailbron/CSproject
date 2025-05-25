@@ -10,6 +10,5 @@ public interface ICustomer
     void Update(BO.Customer item);
     void Delete(int id);
     BO.Customer? Read(Func<BO.Customer, bool>? filter);
-
     bool IsCustomerExist(int id);
 }

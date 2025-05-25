@@ -80,3 +80,17 @@ Z:\B\קרשינסקי נחמי\C#\new\CSProject\DalXml\obj\Debug\refint\DalXml.d
 Z:\B\קרשינסקי נחמי\C#\new\CSProject\DalXml\obj\Debug\DalXml.pdb
 Z:\B\קרשינסקי נחמי\C#\new\CSProject\DalXml\obj\Debug\ref\DalXml.dll
 C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\DalXml\obj\Debug\DalXml.sourcelink.json
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\bin\DalXml.deps.json
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\bin\DalXml.dll
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\bin\DalXml.pdb
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalXml\obj\Debug\DalXml.csproj.AssemblyReference.cache
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalXml\obj\Debug\DalXml.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalXml\obj\Debug\DalXml.AssemblyInfoInputs.cache
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalXml\obj\Debug\DalXml.AssemblyInfo.cs
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalXml\obj\Debug\DalXml.csproj.CoreCompileInputs.cache
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalXml\obj\Debug\DalXml.sourcelink.json
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalXml\obj\Debug\DalXml.csproj.Up2Date
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalXml\obj\Debug\DalXml.dll
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalXml\obj\Debug\refint\DalXml.dll
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalXml\obj\Debug\DalXml.pdb
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalXml\obj\Debug\ref\DalXml.dll

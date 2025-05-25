@@ -66,25 +66,29 @@ internal class SaleImplementation : ISale
     public int Create(Sale item)
     {
         LogManager.Tabs += "\t";
-        LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Create sale {item}");
+        LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Attempting to create sale: {item}");
 
         if (item == null)
         {
-            throw new DalExceptionNullReceived("sale");
+            LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "Received null sale");
+            throw new DalExceptionNullReceived("Sale");
         }
 
-        var salesList = LoadSalesListFromXml();
-        if (salesList.Any(s => s.ID == item.ID))
+        List<Sale> salesList = LoadSalesListFromXml();
+        bool exists = salesList.Any(p => p.ID == item.ID);
+        if (exists)
         {
-            throw new DalExceptionIdIsAlreadyExistInTheList("sale");
+            LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Sale with ID {item.ID} already exists");
+            throw new DalExceptionIdIsAlreadyExistInTheList("Sale");
         }
-        salesList.Add(item);
+
+        Sale p = item with { ID = Config.NextValSale };
+        salesList.Add(p);
         StoreSalesListToXml(salesList);
 
+        LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Successfully created sale: {p}");
         LogManager.Tabs = LogManager.Tabs.Substring(1);
-        LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Finished creating sale {item}");
-
-        return item.ID;
+        return p.ID;
     }
 
     public void Delete(int id)

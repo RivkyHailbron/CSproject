@@ -79,3 +79,15 @@ Z:\B\קרשינסקי נחמי\C#\new\CSProject\Tools\obj\Debug\refint\Tools.dll
 Z:\B\קרשינסקי נחמי\C#\new\CSProject\Tools\obj\Debug\Tools.pdb
 Z:\B\קרשינסקי נחמי\C#\new\CSProject\Tools\obj\Debug\ref\Tools.dll
 C:\Users\user1\Documents\לימודים\c#\project\DotNet2025_4329_6668\Tools\obj\Debug\Tools.sourcelink.json
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\bin\Tools.deps.json
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\bin\Tools.dll
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\bin\Tools.pdb
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\Tools\obj\Debug\Tools.AssemblyInfo.cs
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\Tools\obj\Debug\Tools.sourcelink.json
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\Tools\obj\Debug\Tools.dll
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\Tools\obj\Debug\refint\Tools.dll
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\Tools\obj\Debug\Tools.pdb
+Z:\B\היילברון רבקה\c#\FinalProject\CSproject\Tools\obj\Debug\ref\Tools.dll
