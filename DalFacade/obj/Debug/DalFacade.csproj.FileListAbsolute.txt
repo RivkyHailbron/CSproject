@@ -115,3 +115,15 @@ Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalFacade\obj\Debug\Dal
 Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalFacade\obj\Debug\refint\DalFacade.dll
 Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalFacade\obj\Debug\DalFacade.pdb
 Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalFacade\obj\Debug\ref\DalFacade.dll
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\bin\DalFacade.deps.json
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\bin\DalFacade.dll
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\bin\DalFacade.pdb
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\DalFacade\obj\Debug\DalFacade.sourcelink.json
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\DalFacade\obj\Debug\DalFacade.dll
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\DalFacade\obj\Debug\refint\DalFacade.dll
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\DalFacade\obj\Debug\DalFacade.pdb
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\DalFacade\obj\Debug\ref\DalFacade.dll

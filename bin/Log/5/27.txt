@@ -1,0 +1,766 @@
+27/05/2025 00:00:00
+		10:37:26.9482404
+	 		 Dal.CustomerImplementation.Read
+		Read customer 0
+			10:37:26.9520807
+	 			 Dal.CustomerImplementation.LoadCustomersListFromXml
+			Loading customers list from XML
+		10:37:26.9849081
+	 		 Dal.CustomerImplementation.LoadCustomersListFromXml
+		Finished loading customers list from XML
+			10:37:27.4609006
+	 			 Dal.ProductImplementation.ReadAll
+			Attempting to read all products
+			10:37:27.4735274
+	 			 Dal.ProductImplementation.ReadAll
+			No filter provided, returning all products
+				10:37:33.7579506
+	 				 Dal.ProductImplementation.Read
+				Attempting to read product with ID: 3
+				10:37:33.7656514
+	 				 Dal.ProductImplementation.Read
+				Successfully read product with ID: 3
+				10:37:33.7730960
+	 				 Dal.SaleImplementation.ReadAll
+				Read all sales
+					10:37:33.7780059
+	 					 Dal.SaleImplementation.LoadSalesListFromXml
+					Loading sales list from XML
+				10:37:33.8002553
+	 				 Dal.SaleImplementation.LoadSalesListFromXml
+				Finished loading sales list from XML
+			10:37:33.8033501
+	 			 Dal.SaleImplementation.ReadAll
+			Finished reading all sales
+				10:37:33.8091121
+	 				 Dal.SaleImplementation.ReadAll
+				Read all sales
+					10:37:33.8121508
+	 					 Dal.SaleImplementation.LoadSalesListFromXml
+					Loading sales list from XML
+				10:37:33.8168126
+	 				 Dal.SaleImplementation.LoadSalesListFromXml
+				Finished loading sales list from XML
+			10:37:33.8198834
+	 			 Dal.SaleImplementation.ReadAll
+			Finished reading all sales
+				10:37:43.0131463
+	 				 Dal.SaleImplementation.ReadAll
+				Read all sales
+					10:37:43.0155597
+	 					 Dal.SaleImplementation.LoadSalesListFromXml
+					Loading sales list from XML
+				10:37:43.0199207
+	 				 Dal.SaleImplementation.LoadSalesListFromXml
+				Finished loading sales list from XML
+			10:37:43.0343904
+	 			 Dal.SaleImplementation.ReadAll
+			Finished reading all sales
+				10:37:43.0441296
+	 				 Dal.SaleImplementation.ReadAll
+				Read all sales
+					10:37:43.0482925
+	 					 Dal.SaleImplementation.LoadSalesListFromXml
+					Loading sales list from XML
+				10:37:43.0542664
+	 				 Dal.SaleImplementation.LoadSalesListFromXml
+				Finished loading sales list from XML
+			10:37:43.0578595
+	 			 Dal.SaleImplementation.ReadAll
+			Finished reading all sales
+				10:37:43.0618943
+	 				 Dal.ProductImplementation.ReadAll
+				Attempting to read all products
+				10:37:43.0674579
+	 				 Dal.ProductImplementation.ReadAll
+				No filter provided, returning all products
+					10:37:59.2015752
+	 					 Dal.SaleImplementation.Read
+					Read sale 1005
+						10:37:59.2042337
+	 						 Dal.SaleImplementation.LoadSalesListFromXml
+						Loading sales list from XML
+					10:37:59.2107802
+	 					 Dal.SaleImplementation.LoadSalesListFromXml
+					Finished loading sales list from XML
+				10:37:59.2134683
+	 				 Dal.SaleImplementation.Read
+				Finished reading sale 1005
+					10:38:09.6712221
+	 					 Dal.SaleImplementation.Update
+					Update sale Sale { ID = 1005, ProductId = 3, MinAmountForSale = 150, SalePrice = 2, ForClub = False, StartDateSale = 04/03/2025 18:23:19, EndDateSale = 14/01/2026 18:23:19 }
+						10:38:09.6756274
+	 						 Dal.SaleImplementation.LoadSalesListFromXml
+						Loading sales list from XML
+					10:38:09.6989470
+	 					 Dal.SaleImplementation.LoadSalesListFromXml
+					Finished loading sales list from XML
+						10:38:09.7047972
+	 						 Dal.SaleImplementation.StoreSalesListToXml
+						Storing sales list to XML
+					10:38:09.7203243
+	 					 Dal.SaleImplementation.StoreSalesListToXml
+					Finished storing sales list to XML
+				10:38:09.7229516
+	 				 Dal.SaleImplementation.Update
+				Finished updating sale Sale { ID = 1005, ProductId = 3, MinAmountForSale = 150, SalePrice = 2, ForClub = False, StartDateSale = 04/03/2025 18:23:19, EndDateSale = 14/01/2026 18:23:19 }
+					10:38:09.7253722
+	 					 Dal.SaleImplementation.ReadAll
+					Read all sales
+						10:38:09.7279192
+	 						 Dal.SaleImplementation.LoadSalesListFromXml
+						Loading sales list from XML
+					10:38:09.7329113
+	 					 Dal.SaleImplementation.LoadSalesListFromXml
+					Finished loading sales list from XML
+				10:38:09.7353121
+	 				 Dal.SaleImplementation.ReadAll
+				Finished reading all sales
+					10:38:09.7399429
+	 					 Dal.SaleImplementation.ReadAll
+					Read all sales
+						10:38:09.7424040
+	 						 Dal.SaleImplementation.LoadSalesListFromXml
+						Loading sales list from XML
+					10:38:09.7455666
+	 					 Dal.SaleImplementation.LoadSalesListFromXml
+					Finished loading sales list from XML
+				10:38:09.7482987
+	 				 Dal.SaleImplementation.ReadAll
+				Finished reading all sales
+					10:38:09.7515786
+	 					 Dal.ProductImplementation.ReadAll
+					Attempting to read all products
+					10:38:09.7571859
+	 					 Dal.ProductImplementation.ReadAll
+					No filter provided, returning all products
+						10:38:19.5298039
+	 						 Dal.SaleImplementation.Read
+						Read sale 1005
+							10:38:19.5349478
+	 							 Dal.SaleImplementation.LoadSalesListFromXml
+							Loading sales list from XML
+						10:38:19.5411944
+	 						 Dal.SaleImplementation.LoadSalesListFromXml
+						Finished loading sales list from XML
+					10:38:19.5452664
+	 					 Dal.SaleImplementation.Read
+					Finished reading sale 1005
+						10:38:33.4928777
+	 						 Dal.CustomerImplementation.Read
+						Read customer 0
+							10:38:33.4966266
+	 							 Dal.CustomerImplementation.LoadCustomersListFromXml
+							Loading customers list from XML
+						10:38:33.5040359
+	 						 Dal.CustomerImplementation.LoadCustomersListFromXml
+						Finished loading customers list from XML
+							10:38:34.0791998
+	 							 Dal.ProductImplementation.ReadAll
+							Attempting to read all products
+							10:38:34.0883478
+	 							 Dal.ProductImplementation.ReadAll
+							No filter provided, returning all products
+								10:38:37.8015354
+	 								 Dal.ProductImplementation.Read
+								Attempting to read product with ID: 3
+								10:38:37.8079836
+	 								 Dal.ProductImplementation.Read
+								Successfully read product with ID: 3
+								10:38:37.8114689
+	 								 Dal.SaleImplementation.ReadAll
+								Read all sales
+									10:38:37.8147881
+	 									 Dal.SaleImplementation.LoadSalesListFromXml
+									Loading sales list from XML
+								10:38:37.8217164
+	 								 Dal.SaleImplementation.LoadSalesListFromXml
+								Finished loading sales list from XML
+							10:38:37.8250837
+	 							 Dal.SaleImplementation.ReadAll
+							Finished reading all sales
+								10:38:37.8289890
+	 								 Dal.SaleImplementation.ReadAll
+								Read all sales
+									10:38:37.8327636
+	 									 Dal.SaleImplementation.LoadSalesListFromXml
+									Loading sales list from XML
+								10:38:37.8379133
+	 								 Dal.SaleImplementation.LoadSalesListFromXml
+								Finished loading sales list from XML
+							10:38:37.8409338
+	 							 Dal.SaleImplementation.ReadAll
+							Finished reading all sales
+		10:38:48.5205061
+	 		 Dal.CustomerImplementation.Read
+		Read customer 0
+			10:38:48.5246291
+	 			 Dal.CustomerImplementation.LoadCustomersListFromXml
+			Loading customers list from XML
+		10:38:48.5467768
+	 		 Dal.CustomerImplementation.LoadCustomersListFromXml
+		Finished loading customers list from XML
+			10:38:49.0375124
+	 			 Dal.ProductImplementation.ReadAll
+			Attempting to read all products
+			10:38:49.0515375
+	 			 Dal.ProductImplementation.ReadAll
+			No filter provided, returning all products
+				10:38:53.7640927
+	 				 Dal.ProductImplementation.Read
+				Attempting to read product with ID: 3
+				10:38:53.7723790
+	 				 Dal.ProductImplementation.Read
+				Successfully read product with ID: 3
+				10:38:53.7792426
+	 				 Dal.SaleImplementation.ReadAll
+				Read all sales
+					10:38:53.7845510
+	 					 Dal.SaleImplementation.LoadSalesListFromXml
+					Loading sales list from XML
+				10:38:53.8044507
+	 				 Dal.SaleImplementation.LoadSalesListFromXml
+				Finished loading sales list from XML
+			10:38:53.8074456
+	 			 Dal.SaleImplementation.ReadAll
+			Finished reading all sales
+				10:38:53.8141803
+	 				 Dal.SaleImplementation.ReadAll
+				Read all sales
+					10:38:53.8174494
+	 					 Dal.SaleImplementation.LoadSalesListFromXml
+					Loading sales list from XML
+				10:38:53.8233260
+	 				 Dal.SaleImplementation.LoadSalesListFromXml
+				Finished loading sales list from XML
+			10:38:53.8269062
+	 			 Dal.SaleImplementation.ReadAll
+			Finished reading all sales
+		10:40:04.1610372
+	 		 Dal.CustomerImplementation.Read
+		Read customer 0
+			10:40:04.1691099
+	 			 Dal.CustomerImplementation.LoadCustomersListFromXml
+			Loading customers list from XML
+		10:40:04.2321693
+	 		 Dal.CustomerImplementation.LoadCustomersListFromXml
+		Finished loading customers list from XML
+			10:40:05.2961114
+	 			 Dal.ProductImplementation.ReadAll
+			Attempting to read all products
+			10:40:05.3277068
+	 			 Dal.ProductImplementation.ReadAll
+			No filter provided, returning all products
+				10:40:14.4165094
+	 				 Dal.ProductImplementation.Read
+				Attempting to read product with ID: 3
+				10:40:14.4206787
+	 				 Dal.ProductImplementation.Read
+				Successfully read product with ID: 3
+				10:40:17.3283454
+	 				 Dal.SaleImplementation.ReadAll
+				Read all sales
+					10:40:17.3317161
+	 					 Dal.SaleImplementation.LoadSalesListFromXml
+					Loading sales list from XML
+				10:40:17.3555394
+	 				 Dal.SaleImplementation.LoadSalesListFromXml
+				Finished loading sales list from XML
+			10:40:17.3580659
+	 			 Dal.SaleImplementation.ReadAll
+			Finished reading all sales
+		10:45:06.3914289
+	 		 Dal.CustomerImplementation.Read
+		Read customer 0
+			10:45:06.4004478
+	 			 Dal.CustomerImplementation.LoadCustomersListFromXml
+			Loading customers list from XML
+		10:45:06.4551847
+	 		 Dal.CustomerImplementation.LoadCustomersListFromXml
+		Finished loading customers list from XML
+			10:45:07.6326038
+	 			 Dal.ProductImplementation.ReadAll
+			Attempting to read all products
+			10:45:07.6601569
+	 			 Dal.ProductImplementation.ReadAll
+			No filter provided, returning all products
+				10:45:11.5694762
+	 				 Dal.ProductImplementation.Read
+				Attempting to read product with ID: 3
+				10:45:11.5750566
+	 				 Dal.ProductImplementation.Read
+				Successfully read product with ID: 3
+				10:45:14.6913390
+	 				 Dal.SaleImplementation.ReadAll
+				Read all sales
+					10:45:14.6946748
+	 					 Dal.SaleImplementation.LoadSalesListFromXml
+					Loading sales list from XML
+				10:45:14.7243485
+	 				 Dal.SaleImplementation.LoadSalesListFromXml
+				Finished loading sales list from XML
+			10:45:14.7270502
+	 			 Dal.SaleImplementation.ReadAll
+			Finished reading all sales
+		10:45:59.1616028
+	 		 Dal.CustomerImplementation.Read
+		Read customer 0
+			10:45:59.1652774
+	 			 Dal.CustomerImplementation.LoadCustomersListFromXml
+			Loading customers list from XML
+		10:45:59.1869840
+	 		 Dal.CustomerImplementation.LoadCustomersListFromXml
+		Finished loading customers list from XML
+			10:45:59.6640522
+	 			 Dal.ProductImplementation.ReadAll
+			Attempting to read all products
+			10:45:59.6792515
+	 			 Dal.ProductImplementation.ReadAll
+			No filter provided, returning all products
+				10:46:04.1987453
+	 				 Dal.ProductImplementation.Read
+				Attempting to read product with ID: 3
+				10:46:04.2046421
+	 				 Dal.ProductImplementation.Read
+				Successfully read product with ID: 3
+				10:46:04.2090744
+	 				 Dal.SaleImplementation.ReadAll
+				Read all sales
+					10:46:04.2119246
+	 					 Dal.SaleImplementation.LoadSalesListFromXml
+					Loading sales list from XML
+				10:46:04.2249716
+	 				 Dal.SaleImplementation.LoadSalesListFromXml
+				Finished loading sales list from XML
+			10:46:04.2275066
+	 			 Dal.SaleImplementation.ReadAll
+			Finished reading all sales
+				10:46:04.2328119
+	 				 Dal.SaleImplementation.ReadAll
+				Read all sales
+					10:46:04.2349572
+	 					 Dal.SaleImplementation.LoadSalesListFromXml
+					Loading sales list from XML
+				10:46:04.2390454
+	 				 Dal.SaleImplementation.LoadSalesListFromXml
+				Finished loading sales list from XML
+			10:46:04.2413660
+	 			 Dal.SaleImplementation.ReadAll
+			Finished reading all sales
+		10:48:21.8274982
+	 		 Dal.CustomerImplementation.ReadAll
+		Read all customers
+			10:48:21.8395115
+	 			 Dal.CustomerImplementation.LoadCustomersListFromXml
+			Loading customers list from XML
+		10:48:21.9257801
+	 		 Dal.CustomerImplementation.LoadCustomersListFromXml
+		Finished loading customers list from XML
+	10:48:21.9290995
+	 	 Dal.CustomerImplementation.ReadAll
+	Finished reading all customers
+		10:48:33.4045656
+	 		 Dal.CustomerImplementation.Create
+		Create customer Customer { ID = 3423, Name = יעהיבכ, Address = 43, Phone = 542 }
+			10:48:33.4082749
+	 			 Dal.CustomerImplementation.LoadCustomersListFromXml
+			Loading customers list from XML
+		10:48:33.4138237
+	 		 Dal.CustomerImplementation.LoadCustomersListFromXml
+		Finished loading customers list from XML
+			10:48:33.4176422
+	 			 Dal.CustomerImplementation.StoreCustomersListToXml
+			Storing customers list to XML
+		10:48:33.4281025
+	 		 Dal.CustomerImplementation.StoreCustomersListToXml
+		Finished storing customers list to XML
+	10:48:33.4310214
+	 	 Dal.CustomerImplementation.Create
+	Finished creating customer Customer { ID = 3423, Name = יעהיבכ, Address = 43, Phone = 542 }
+		10:48:33.4341364
+	 		 Dal.CustomerImplementation.ReadAll
+		Read all customers
+			10:48:33.4373708
+	 			 Dal.CustomerImplementation.LoadCustomersListFromXml
+			Loading customers list from XML
+		10:48:33.4420318
+	 		 Dal.CustomerImplementation.LoadCustomersListFromXml
+		Finished loading customers list from XML
+	10:48:33.4449122
+	 	 Dal.CustomerImplementation.ReadAll
+	Finished reading all customers
+		10:48:43.0156152
+	 		 Dal.CustomerImplementation.Read
+		Read customer 3423
+			10:48:43.0194922
+	 			 Dal.CustomerImplementation.LoadCustomersListFromXml
+			Loading customers list from XML
+		10:48:43.0239457
+	 		 Dal.CustomerImplementation.LoadCustomersListFromXml
+		Finished loading customers list from XML
+	10:48:43.0276150
+	 	 Dal.CustomerImplementation.Read
+	Finished reading customer 3423
+		10:48:47.1523528
+	 		 Dal.CustomerImplementation.Update
+		Update customer Customer { ID = 3423, Name = לאה, Address = 43, Phone = 542 }
+			10:48:47.1561872
+	 			 Dal.CustomerImplementation.LoadCustomersListFromXml
+			Loading customers list from XML
+		10:48:47.1613238
+	 		 Dal.CustomerImplementation.LoadCustomersListFromXml
+		Finished loading customers list from XML
+			10:48:47.1653131
+	 			 Dal.CustomerImplementation.StoreCustomersListToXml
+			Storing customers list to XML
+		10:48:47.1741844
+	 		 Dal.CustomerImplementation.StoreCustomersListToXml
+		Finished storing customers list to XML
+	10:48:47.1774379
+	 	 Dal.CustomerImplementation.Update
+	Finished updating customer Customer { ID = 3423, Name = לאה, Address = 43, Phone = 542 }
+		10:48:47.1810491
+	 		 Dal.CustomerImplementation.ReadAll
+		Read all customers
+			10:48:47.1845211
+	 			 Dal.CustomerImplementation.LoadCustomersListFromXml
+			Loading customers list from XML
+		10:48:47.1901607
+	 		 Dal.CustomerImplementation.LoadCustomersListFromXml
+		Finished loading customers list from XML
+	10:48:47.1932238
+	 	 Dal.CustomerImplementation.ReadAll
+	Finished reading all customers
+		10:48:55.1430446
+	 		 Dal.CustomerImplementation.Delete
+		Delete customer 3423
+			10:48:55.1467943
+	 			 Dal.CustomerImplementation.LoadCustomersListFromXml
+			Loading customers list from XML
+		10:48:55.1522922
+	 		 Dal.CustomerImplementation.LoadCustomersListFromXml
+		Finished loading customers list from XML
+			10:48:55.1589092
+	 			 Dal.CustomerImplementation.StoreCustomersListToXml
+			Storing customers list to XML
+		10:48:55.1669736
+	 		 Dal.CustomerImplementation.StoreCustomersListToXml
+		Finished storing customers list to XML
+	10:48:55.1704755
+	 	 Dal.CustomerImplementation.Delete
+	Finished deleting customer 3423
+		10:48:55.1734734
+	 		 Dal.CustomerImplementation.ReadAll
+		Read all customers
+			10:48:55.1779104
+	 			 Dal.CustomerImplementation.LoadCustomersListFromXml
+			Loading customers list from XML
+		10:48:55.1919806
+	 		 Dal.CustomerImplementation.LoadCustomersListFromXml
+		Finished loading customers list from XML
+	10:48:55.1967224
+	 	 Dal.CustomerImplementation.ReadAll
+	Finished reading all customers
+		10:49:02.3180026
+	 		 Dal.ProductImplementation.ReadAll
+		Attempting to read all products
+		10:49:02.3563634
+	 		 Dal.ProductImplementation.ReadAll
+		No filter provided, returning all products
+			10:49:08.7192047
+	 			 Dal.ProductImplementation.Read
+			Attempting to read product with ID: 4
+			10:49:08.7247999
+	 			 Dal.ProductImplementation.Read
+			Successfully read product with ID: 4
+			10:49:13.3991214
+	 			 Dal.SaleImplementation.ReadAll
+			Read all sales
+				10:49:13.4029823
+	 				 Dal.SaleImplementation.LoadSalesListFromXml
+				Loading sales list from XML
+			10:49:13.4350835
+	 			 Dal.SaleImplementation.LoadSalesListFromXml
+			Finished loading sales list from XML
+		10:49:13.4386714
+	 		 Dal.SaleImplementation.ReadAll
+		Finished reading all sales
+			10:49:13.4511336
+	 			 Dal.SaleImplementation.ReadAll
+			Read all sales
+				10:49:13.4544690
+	 				 Dal.SaleImplementation.LoadSalesListFromXml
+				Loading sales list from XML
+			10:49:13.4598125
+	 			 Dal.SaleImplementation.LoadSalesListFromXml
+			Finished loading sales list from XML
+		10:49:13.4637559
+	 		 Dal.SaleImplementation.ReadAll
+		Finished reading all sales
+			10:49:13.4674317
+	 			 Dal.ProductImplementation.ReadAll
+			Attempting to read all products
+			10:49:13.4717964
+	 			 Dal.ProductImplementation.ReadAll
+			No filter provided, returning all products
+				10:49:33.1824980
+	 				 Dal.SaleImplementation.ReadAll
+				Read all sales
+					10:49:33.1860609
+	 					 Dal.SaleImplementation.LoadSalesListFromXml
+					Loading sales list from XML
+				10:49:33.1924306
+	 				 Dal.SaleImplementation.LoadSalesListFromXml
+				Finished loading sales list from XML
+			10:49:33.1954700
+	 			 Dal.SaleImplementation.ReadAll
+			Finished reading all sales
+				10:49:37.8053828
+	 				 Dal.ProductImplementation.ReadAll
+				Attempting to read all products
+				10:49:37.8115664
+	 				 Dal.ProductImplementation.ReadAll
+				No filter provided, returning all products
+					10:49:52.2067918
+	 					 Dal.CustomerImplementation.Read
+					Read customer 111
+						10:49:52.2103578
+	 						 Dal.CustomerImplementation.LoadCustomersListFromXml
+						Loading customers list from XML
+					10:49:52.2160451
+	 					 Dal.CustomerImplementation.LoadCustomersListFromXml
+					Finished loading customers list from XML
+				10:49:52.2194110
+	 				 Dal.CustomerImplementation.Read
+				Finished reading customer 111
+					10:49:53.8426250
+	 					 Dal.ProductImplementation.ReadAll
+					Attempting to read all products
+					10:49:53.8502304
+	 					 Dal.ProductImplementation.ReadAll
+					No filter provided, returning all products
+						10:50:00.0469777
+	 						 Dal.ProductImplementation.Read
+						Attempting to read product with ID: 3
+						10:50:00.0522976
+	 						 Dal.ProductImplementation.Read
+						Successfully read product with ID: 3
+						10:50:00.0574265
+	 						 Dal.SaleImplementation.ReadAll
+						Read all sales
+							10:50:00.0603089
+	 							 Dal.SaleImplementation.LoadSalesListFromXml
+							Loading sales list from XML
+						10:50:00.0653679
+	 						 Dal.SaleImplementation.LoadSalesListFromXml
+						Finished loading sales list from XML
+					10:50:00.0691959
+	 					 Dal.SaleImplementation.ReadAll
+					Finished reading all sales
+						10:50:00.0751228
+	 						 Dal.SaleImplementation.ReadAll
+						Read all sales
+							10:50:00.0783209
+	 							 Dal.SaleImplementation.LoadSalesListFromXml
+							Loading sales list from XML
+						10:50:00.0822242
+	 						 Dal.SaleImplementation.LoadSalesListFromXml
+						Finished loading sales list from XML
+					10:50:00.0850693
+	 					 Dal.SaleImplementation.ReadAll
+					Finished reading all sales
+						10:50:07.7008201
+	 						 Dal.ProductImplementation.Read
+						Attempting to read product with ID: 3
+						10:50:07.7056879
+	 						 Dal.ProductImplementation.Read
+						Successfully read product with ID: 3
+						10:50:07.7121160
+	 						 Dal.SaleImplementation.ReadAll
+						Read all sales
+							10:50:07.7163308
+	 							 Dal.SaleImplementation.LoadSalesListFromXml
+							Loading sales list from XML
+						10:50:07.7210033
+	 						 Dal.SaleImplementation.LoadSalesListFromXml
+						Finished loading sales list from XML
+					10:50:07.7244089
+	 					 Dal.SaleImplementation.ReadAll
+					Finished reading all sales
+						10:50:07.7312348
+	 						 Dal.SaleImplementation.ReadAll
+						Read all sales
+							10:50:07.7348678
+	 							 Dal.SaleImplementation.LoadSalesListFromXml
+							Loading sales list from XML
+						10:50:07.7403110
+	 						 Dal.SaleImplementation.LoadSalesListFromXml
+						Finished loading sales list from XML
+					10:50:07.7439226
+	 					 Dal.SaleImplementation.ReadAll
+					Finished reading all sales
+						10:50:20.3377031
+	 						 Dal.ProductImplementation.ReadAll
+						Attempting to read all products
+						10:50:20.3529834
+	 						 Dal.ProductImplementation.ReadAll
+						No filter provided, returning all products
+							10:50:34.4717364
+	 							 Dal.ProductImplementation.ReadAll
+							Attempting to read all products
+							10:50:34.4772546
+	 							 Dal.ProductImplementation.ReadAll
+							No filter provided, returning all products
+								10:50:43.7870762
+	 								 Dal.CustomerImplementation.Read
+								Read customer 111
+									10:50:43.7907761
+	 									 Dal.CustomerImplementation.LoadCustomersListFromXml
+									Loading customers list from XML
+								10:50:43.7975016
+	 								 Dal.CustomerImplementation.LoadCustomersListFromXml
+								Finished loading customers list from XML
+							10:50:43.8007943
+	 							 Dal.CustomerImplementation.Read
+							Finished reading customer 111
+								10:50:44.8046775
+	 								 Dal.ProductImplementation.ReadAll
+								Attempting to read all products
+								10:50:44.8099440
+	 								 Dal.ProductImplementation.ReadAll
+								No filter provided, returning all products
+									10:50:50.9873704
+	 									 Dal.ProductImplementation.Read
+									Attempting to read product with ID: 1
+									10:50:50.9923182
+	 									 Dal.ProductImplementation.Read
+									Successfully read product with ID: 1
+									10:50:50.9960031
+	 									 Dal.SaleImplementation.ReadAll
+									Read all sales
+										10:50:51.0009101
+	 										 Dal.SaleImplementation.LoadSalesListFromXml
+										Loading sales list from XML
+									10:50:51.0065506
+	 									 Dal.SaleImplementation.LoadSalesListFromXml
+									Finished loading sales list from XML
+								10:50:51.0100127
+	 								 Dal.SaleImplementation.ReadAll
+								Finished reading all sales
+									10:50:51.0140991
+	 									 Dal.SaleImplementation.ReadAll
+									Read all sales
+										10:50:51.0174218
+	 										 Dal.SaleImplementation.LoadSalesListFromXml
+										Loading sales list from XML
+									10:50:51.0220842
+	 									 Dal.SaleImplementation.LoadSalesListFromXml
+									Finished loading sales list from XML
+								10:50:51.0260896
+	 								 Dal.SaleImplementation.ReadAll
+								Finished reading all sales
+									10:51:08.5997510
+	 									 Dal.ProductImplementation.ReadAll
+									Attempting to read all products
+									10:51:08.6053863
+	 									 Dal.ProductImplementation.ReadAll
+									No filter provided, returning all products
+										10:51:12.6358819
+	 										 Dal.ProductImplementation.Read
+										Attempting to read product with ID: 1
+										10:51:12.6401104
+	 										 Dal.ProductImplementation.Read
+										Successfully read product with ID: 1
+										10:51:12.6432680
+	 										 Dal.SaleImplementation.ReadAll
+										Read all sales
+											10:51:12.6465014
+	 											 Dal.SaleImplementation.LoadSalesListFromXml
+											Loading sales list from XML
+										10:51:12.6529933
+	 										 Dal.SaleImplementation.LoadSalesListFromXml
+										Finished loading sales list from XML
+									10:51:12.6561338
+	 									 Dal.SaleImplementation.ReadAll
+									Finished reading all sales
+										10:51:12.6594469
+	 										 Dal.SaleImplementation.ReadAll
+										Read all sales
+											10:51:12.6624841
+	 											 Dal.SaleImplementation.LoadSalesListFromXml
+											Loading sales list from XML
+										10:51:12.6662572
+	 										 Dal.SaleImplementation.LoadSalesListFromXml
+										Finished loading sales list from XML
+									10:51:12.6694445
+	 									 Dal.SaleImplementation.ReadAll
+									Finished reading all sales
+		11:00:56.3257941
+	 		 Dal.CustomerImplementation.Read
+		Read customer 0
+			11:00:56.8463322
+	 			 Dal.CustomerImplementation.LoadCustomersListFromXml
+			Loading customers list from XML
+		11:00:56.8862903
+	 		 Dal.CustomerImplementation.LoadCustomersListFromXml
+		Finished loading customers list from XML
+			11:00:58.0086504
+	 			 Dal.ProductImplementation.ReadAll
+			Attempting to read all products
+			11:00:58.0353439
+	 			 Dal.ProductImplementation.ReadAll
+			No filter provided, returning all products
+				11:01:09.8585451
+	 				 Dal.ProductImplementation.Read
+				Attempting to read product with ID: 1
+				11:01:09.8670841
+	 				 Dal.ProductImplementation.Read
+				Successfully read product with ID: 1
+				11:01:09.8725002
+	 				 Dal.SaleImplementation.ReadAll
+				Read all sales
+					11:01:09.8766295
+	 					 Dal.SaleImplementation.LoadSalesListFromXml
+					Loading sales list from XML
+				11:01:09.8969468
+	 				 Dal.SaleImplementation.LoadSalesListFromXml
+				Finished loading sales list from XML
+			11:01:09.8991534
+	 			 Dal.SaleImplementation.ReadAll
+			Finished reading all sales
+				11:01:09.9039573
+	 				 Dal.SaleImplementation.ReadAll
+				Read all sales
+					11:01:09.9063702
+	 					 Dal.SaleImplementation.LoadSalesListFromXml
+					Loading sales list from XML
+				11:01:09.9093568
+	 				 Dal.SaleImplementation.LoadSalesListFromXml
+				Finished loading sales list from XML
+			11:01:09.9115132
+	 			 Dal.SaleImplementation.ReadAll
+			Finished reading all sales
+				11:01:12.4283608
+	 				 Dal.ProductImplementation.Read
+				Attempting to read product with ID: 1
+				11:01:12.4314595
+	 				 Dal.ProductImplementation.Read
+				Successfully read product with ID: 1
+				11:01:12.4344474
+	 				 Dal.ProductImplementation.Update
+				Attempting to update product: Product { ID = 1, Name = elegant shoes gray for girls, Category = elegant, Price = 99, Amount = 100 }
+				11:01:12.4438642
+	 				 Dal.ProductImplementation.Update
+				Successfully updated product: Product { ID = 1, Name = elegant shoes gray for girls, Category = elegant, Price = 99, Amount = 100 }
+				11:01:15.0593835
+	 				 Dal.ProductImplementation.ReadAll
+				Attempting to read all products
+				11:01:15.0629513
+	 				 Dal.ProductImplementation.ReadAll
+				No filter provided, returning all products
+					11:01:25.4752191
+	 					 Dal.ProductImplementation.ReadAll
+					Attempting to read all products
+					11:01:25.4790806
+	 					 Dal.ProductImplementation.ReadAll
+					No filter provided, returning all products

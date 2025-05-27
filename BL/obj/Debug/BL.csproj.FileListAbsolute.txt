@@ -107,3 +107,17 @@ Z:\B\היילברון רבקה\c#\FinalProject\CSproject\BL\obj\Debug\BL.dll
 Z:\B\היילברון רבקה\c#\FinalProject\CSproject\BL\obj\Debug\refint\BL.dll
 Z:\B\היילברון רבקה\c#\FinalProject\CSproject\BL\obj\Debug\BL.pdb
 Z:\B\היילברון רבקה\c#\FinalProject\CSproject\BL\obj\Debug\ref\BL.dll
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\bin\BL.deps.json
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\bin\BL.dll
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\bin\BL.pdb
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\BL\obj\Debug\BL.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\BL\obj\Debug\BL.AssemblyInfoInputs.cache
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\BL\obj\Debug\BL.AssemblyInfo.cs
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\BL\obj\Debug\BL.sourcelink.json
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\BL\obj\Debug\BL.csproj.Up2Date
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\BL\obj\Debug\BL.dll
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\BL\obj\Debug\refint\BL.dll
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\BL\obj\Debug\BL.pdb
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\BL\obj\Debug\ref\BL.dll

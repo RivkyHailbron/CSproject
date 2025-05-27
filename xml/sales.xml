@@ -33,8 +33,8 @@
     <MinAmountForSale>2</MinAmountForSale>
     <SalePrice>150</SalePrice>
     <ForClub>false</ForClub>
-    <StartDateSale>2025-03-25T18:23:19.3260679+02:00</StartDateSale>
-    <EndDateSale>2025-04-04T18:23:19.3260735+03:00</EndDateSale>
+    <StartDateSale>2025-03-04T18:23:19.326</StartDateSale>
+    <EndDateSale>2026-01-14T18:23:19.326</EndDateSale>
   </Sale>
   <Sale>
     <ID>1006</ID>

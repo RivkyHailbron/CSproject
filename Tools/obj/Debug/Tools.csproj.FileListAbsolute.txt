@@ -91,3 +91,15 @@ Z:\B\היילברון רבקה\c#\FinalProject\CSproject\Tools\obj\Debug\Tools.d
 Z:\B\היילברון רבקה\c#\FinalProject\CSproject\Tools\obj\Debug\refint\Tools.dll
 Z:\B\היילברון רבקה\c#\FinalProject\CSproject\Tools\obj\Debug\Tools.pdb
 Z:\B\היילברון רבקה\c#\FinalProject\CSproject\Tools\obj\Debug\ref\Tools.dll
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\bin\Tools.deps.json
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\bin\Tools.dll
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\bin\Tools.pdb
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\Tools\obj\Debug\Tools.AssemblyInfo.cs
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\Tools\obj\Debug\Tools.sourcelink.json
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\Tools\obj\Debug\Tools.dll
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\Tools\obj\Debug\refint\Tools.dll
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\Tools\obj\Debug\Tools.pdb
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\Tools\obj\Debug\ref\Tools.dll

@@ -94,3 +94,17 @@ Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalXml\obj\Debug\DalXml
 Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalXml\obj\Debug\refint\DalXml.dll
 Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalXml\obj\Debug\DalXml.pdb
 Z:\B\היילברון רבקה\c#\FinalProject\CSproject\DalXml\obj\Debug\ref\DalXml.dll
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\bin\DalXml.deps.json
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\bin\DalXml.dll
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\bin\DalXml.pdb
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\DalXml\obj\Debug\DalXml.csproj.AssemblyReference.cache
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\DalXml\obj\Debug\DalXml.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\DalXml\obj\Debug\DalXml.AssemblyInfoInputs.cache
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\DalXml\obj\Debug\DalXml.AssemblyInfo.cs
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\DalXml\obj\Debug\DalXml.csproj.CoreCompileInputs.cache
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\DalXml\obj\Debug\DalXml.sourcelink.json
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\DalXml\obj\Debug\DalXml.csproj.Up2Date
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\DalXml\obj\Debug\DalXml.dll
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\DalXml\obj\Debug\refint\DalXml.dll
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\DalXml\obj\Debug\DalXml.pdb
+Z:\Handasa\B\היילברון רבקה\c#\FinalProject\CSproject\DalXml\obj\Debug\ref\DalXml.dll
